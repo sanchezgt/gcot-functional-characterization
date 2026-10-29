@@ -1,0 +1,10 @@
+{
+ "version": "bloque-a-plantillas-v0-20261001",
+ "condicion_de_paso_propuesta": {
+  "sensibilidad_tipo_y_desenlace_explicitos": 0.8,
+  "sensibilidad_tipo_explicitos": 0.9,
+  "falsos_positivos_por_cadena_P00": 0.5,
+  "recuperacion_relaciones_rutas_explicitas": 0.7,
+  "estabilidad_explicitos_en_2_de_3_corridas": 0.9
+ }
+}

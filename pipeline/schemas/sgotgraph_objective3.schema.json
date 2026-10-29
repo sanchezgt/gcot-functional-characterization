@@ -1,0 +1,802 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/sgotgraph-objective3-1.1.schema.json",
+  "title": "Automatic functional characterization of a generated reasoning trace",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "pipeline_version",
+    "trace_id",
+    "sgot_graph",
+    "episodes",
+    "episode_relations",
+    "progression_lines",
+    "routes",
+    "profile",
+    "configurations",
+    "validation",
+    "provenance",
+    "audit"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "sgotgraph-objective3-1.1"
+    },
+    "pipeline_version": {
+      "const": "objective3-1.1"
+    },
+    "trace_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sgot_graph": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "pipeline_version",
+        "trace_id",
+        "trace_text",
+        "segments",
+        "nodes",
+        "edges",
+        "validation",
+        "audit"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "sgotgraph-objective2-1.1"
+        },
+        "pipeline_version": {
+          "const": "objective2-1.1"
+        },
+        "trace_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "trace_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "segments": {
+          "type": "array"
+        },
+        "nodes": {
+          "type": "array"
+        },
+        "edges": {
+          "type": "array"
+        },
+        "validation": {
+          "type": "object"
+        },
+        "audit": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/episode"
+      }
+    },
+    "episode_relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/episode_relation"
+      }
+    },
+    "progression_lines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/progression_line"
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/route"
+      }
+    },
+    "profile": {
+      "type": "object"
+    },
+    "configurations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/configuration"
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": [
+        "status",
+        "episodes",
+        "relations",
+        "complete"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "VALID",
+            "INVALID"
+          ]
+        },
+        "episodes": {
+          "$ref": "#/$defs/validation_report"
+        },
+        "relations": {
+          "$ref": "#/$defs/validation_report"
+        },
+        "complete": {
+          "$ref": "#/$defs/validation_report"
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "pipeline_version",
+        "runtime",
+        "stages"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "sgotgraph-objective3-1.1"
+        },
+        "pipeline_version": {
+          "const": "objective3-1.1"
+        },
+        "runtime": {
+          "type": "object",
+          "required": [
+            "python_version",
+            "python_implementation",
+            "platform",
+            "code_commit",
+            "source_hash"
+          ],
+          "properties": {
+            "python_version": {
+              "type": "string"
+            },
+            "python_implementation": {
+              "type": "string"
+            },
+            "platform": {
+              "type": "string"
+            },
+            "code_commit": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_hash": {
+              "type": "string",
+              "pattern": "^sha256:[0-9a-f]{64}$"
+            }
+          },
+          "additionalProperties": false
+        },
+        "stages": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "audit": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "required": [
+        "origin",
+        "stage"
+      ],
+      "properties": {
+        "origin": {
+          "enum": [
+            "deterministic",
+            "llm_inferred",
+            "imported",
+            "llm_proposed",
+            "human_independent",
+            "human_adjudicated",
+            "rule_filtered"
+          ]
+        },
+        "stage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "prompt_hash": {
+          "type": "string"
+        },
+        "response_id": {
+          "type": "string"
+        },
+        "system_fingerprint": {
+          "type": "string"
+        },
+        "reasoning_effort": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "span": {
+      "type": "object",
+      "required": [
+        "start_char",
+        "end_char",
+        "text"
+      ],
+      "properties": {
+        "start_char": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end_char": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "anchor": {
+      "type": "object",
+      "required": [
+        "start_char",
+        "end_char",
+        "text",
+        "anchor_role"
+      ],
+      "properties": {
+        "start_char": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end_char": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anchor_role": {
+          "enum": [
+            "TARGET",
+            "CONTRAST",
+            "SUPPORTED",
+            "ENTRY",
+            "EXIT",
+            "STATE",
+            "OTHER"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "text_spans",
+        "witness_node_ids",
+        "witness_edge_ids"
+      ],
+      "properties": {
+        "text_spans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/span"
+          }
+        },
+        "witness_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "witness_edge_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "episode": {
+      "type": "object",
+      "required": [
+        "episode_id",
+        "episode_type",
+        "members",
+        "anchors",
+        "entry_anchor",
+        "exit_anchor",
+        "outcome",
+        "ambiguity_codes",
+        "evidence",
+        "provenance"
+      ],
+      "properties": {
+        "episode_id": {
+          "type": "string",
+          "pattern": "^ep_[0-9a-f]{64}$"
+        },
+        "episode_type": {
+          "enum": [
+            "PROGRESSION",
+            "VERIFICATION",
+            "CORRECTION",
+            "SUPPORT",
+            "ALTERNATIVE"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/span"
+          }
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/anchor"
+          }
+        },
+        "entry_anchor": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anchor"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exit_anchor": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anchor"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "ADVANCES",
+            "REACHES_OUTPUT",
+            "INTERRUPTED",
+            "ABANDONED",
+            "UNRESOLVED",
+            "CONFIRMED",
+            "REFUTED",
+            "INCONCLUSIVE",
+            "RECOVERED",
+            "PARTIAL",
+            "FAILED",
+            "ATTACHED_ACTIVE",
+            "ATTACHED_SUPERSEDED",
+            "CHALLENGED",
+            "ADOPTED",
+            "REJECTED",
+            "MERGED"
+          ]
+        },
+        "consensus": {
+          "type": "object",
+          "required": ["method", "samples", "support", "agreement"],
+          "properties": {
+            "method": {"type": "string"},
+            "samples": {"type": "integer", "minimum": 1},
+            "support": {"type": "integer", "minimum": 1},
+            "agreement": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+            "unanimous": {"type": "boolean"},
+            "votes": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 1}},
+            "tie_break": {"enum": ["first_sample", null]},
+            "member_iou_mean": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "ambiguity_codes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "AMBIGUOUS_TYPE",
+              "BOUNDARY_UNCERTAIN",
+              "ANCHOR_UNCERTAIN",
+              "OUTCOME_UNCERTAIN",
+              "MIXED_FUNCTION",
+              "INSUFFICIENT_TEXT",
+              "SEGMENTATION_CONSTRAINT"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "episode_relation": {
+      "type": "object",
+      "required": [
+        "relation_id",
+        "relation_type",
+        "source_episode_id",
+        "target_episode_id",
+        "evidence",
+        "provenance"
+      ],
+      "properties": {
+        "relation_id": {
+          "type": "string",
+          "pattern": "^rel_[0-9a-f]{64}$"
+        },
+        "relation_type": {
+          "enum": [
+            "IMMEDIATELY_PRECEDES_ONSET",
+            "CONTINUES",
+            "INTERRUPTS",
+            "RESUMES",
+            "EMBEDS",
+            "EVALUATES",
+            "REPLACES",
+            "SUPPORTS_EPISODE",
+            "COMPETES_WITH"
+          ]
+        },
+        "source_episode_id": {
+          "type": "string"
+        },
+        "target_episode_id": {
+          "type": "string"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "progression_line": {
+      "type": "object",
+      "required": [
+        "line_id",
+        "episode_ids",
+        "relation_ids",
+        "provenance"
+      ],
+      "properties": {
+        "line_id": {
+          "type": "string",
+          "pattern": "^pline_[0-9a-f]{64}$"
+        },
+        "episode_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "relation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "route_evidence": {
+      "type": "object",
+      "required": [
+        "source_episode_ids",
+        "source_relation_ids",
+        "entry_boundary_episode_ids",
+        "exit_boundary_episode_ids"
+      ],
+      "properties": {
+        "source_episode_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "source_relation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "entry_boundary_episode_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "exit_boundary_episode_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "route": {
+      "type": "object",
+      "required": [
+        "route_id",
+        "route_type",
+        "focal_criterion",
+        "focus_episode_ids",
+        "episode_ids",
+        "relation_ids",
+        "onset_order",
+        "entry_boundary_episode_ids",
+        "exit_boundary_episode_ids",
+        "entry_anchor",
+        "exit_anchor",
+        "route_status",
+        "evidence",
+        "provenance"
+      ],
+      "properties": {
+        "route_id": {
+          "type": "string",
+          "pattern": "^route_[0-9a-f]{64}$"
+        },
+        "route_type": {
+          "enum": [
+            "PROGRESSION",
+            "VERIFICATION",
+            "CORRECTION",
+            "SUPPORT",
+            "ALTERNATIVE"
+          ]
+        },
+        "focal_criterion": {
+          "enum": [
+            "progression_trajectory",
+            "verification_effect",
+            "correction_recovery",
+            "support_attachment",
+            "alternative_resolution"
+          ]
+        },
+        "focus_episode_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "episode_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "relation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "onset_order": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        },
+        "entry_boundary_episode_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "exit_boundary_episode_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "entry_anchor": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anchor"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exit_anchor": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anchor"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "route_status": {
+          "enum": [
+            "OPEN",
+            "RESOLVED",
+            "MIXED"
+          ]
+        },
+        "evidence": {
+          "$ref": "#/$defs/route_evidence"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "configuration": {
+      "type": "object",
+      "required": [
+        "route_id",
+        "route_type",
+        "canonical_form",
+        "configuration_signature",
+        "provenance"
+      ],
+      "properties": {
+        "route_id": {
+          "type": "string"
+        },
+        "route_type": {
+          "enum": [
+            "PROGRESSION",
+            "VERIFICATION",
+            "CORRECTION",
+            "SUPPORT",
+            "ALTERNATIVE"
+          ]
+        },
+        "canonical_form": {
+          "type": "string",
+          "minLength": 1
+        },
+        "configuration_signature": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        }
+      },
+      "additionalProperties": false
+    },
+    "validation_error": {
+      "type": "object",
+      "required": [
+        "stage",
+        "code",
+        "object_id",
+        "message"
+      ],
+      "properties": {
+        "stage": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "object_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "validation_report": {
+      "type": "object",
+      "required": [
+        "stage",
+        "status",
+        "errors",
+        "warnings"
+      ],
+      "properties": {
+        "stage": {
+          "enum": [
+            "episodes",
+            "relations",
+            "complete"
+          ]
+        },
+        "status": {
+          "enum": [
+            "VALID",
+            "INVALID"
+          ]
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/validation_error"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/validation_error"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

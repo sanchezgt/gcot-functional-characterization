@@ -1,0 +1,747 @@
+{
+ "cadenas": 20,
+ "corridas": 3,
+ "episodios": {
+  "iou_0.5": {
+   "con_pareja_mismo_tipo": {
+    "valor": 0.473,
+    "n": 774
+   },
+   "con_pareja_mismo_tipo_y_desenlace": {
+    "valor": 0.437,
+    "n": 774
+   },
+   "por_tipo": {
+    "ALTERNATIVE": {
+     "pareja": {
+      "valor": 0.479,
+      "n": 422
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.445,
+      "n": 422
+     }
+    },
+    "CORRECTION": {
+     "pareja": {
+      "valor": 0.523,
+      "n": 130
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.523,
+      "n": 130
+     }
+    },
+    "VERIFICATION": {
+     "pareja": {
+      "valor": 0.432,
+      "n": 222
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.369,
+      "n": 222
+     }
+    }
+   },
+   "por_modelo": {
+    "DeepSeek": {
+     "pareja": {
+      "valor": 0.486,
+      "n": 144
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.431,
+      "n": 144
+     }
+    },
+    "Gemma": {
+     "pareja": {
+      "valor": 0.46,
+      "n": 252
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.429,
+      "n": 252
+     }
+    },
+    "Olmo": {
+     "pareja": {
+      "valor": 0.555,
+      "n": 238
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.504,
+      "n": 238
+     }
+    },
+    "Qwen": {
+     "pareja": {
+      "valor": 0.343,
+      "n": 140
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.343,
+      "n": 140
+     }
+    }
+   }
+  },
+  "solapamiento": {
+   "con_pareja_mismo_tipo": {
+    "valor": 0.654,
+    "n": 774
+   },
+   "con_pareja_mismo_tipo_y_desenlace": {
+    "valor": 0.599,
+    "n": 774
+   },
+   "por_tipo": {
+    "ALTERNATIVE": {
+     "pareja": {
+      "valor": 0.69,
+      "n": 422
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.637,
+      "n": 422
+     }
+    },
+    "CORRECTION": {
+     "pareja": {
+      "valor": 0.615,
+      "n": 130
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.615,
+      "n": 130
+     }
+    },
+    "VERIFICATION": {
+     "pareja": {
+      "valor": 0.608,
+      "n": 222
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.518,
+      "n": 222
+     }
+    }
+   },
+   "por_modelo": {
+    "DeepSeek": {
+     "pareja": {
+      "valor": 0.646,
+      "n": 144
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.59,
+      "n": 144
+     }
+    },
+    "Gemma": {
+     "pareja": {
+      "valor": 0.687,
+      "n": 252
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.627,
+      "n": 252
+     }
+    },
+    "Olmo": {
+     "pareja": {
+      "valor": 0.647,
+      "n": 238
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.576,
+      "n": 238
+     }
+    },
+    "Qwen": {
+     "pareja": {
+      "valor": 0.614,
+      "n": 140
+     },
+     "pareja_y_desenlace": {
+      "valor": 0.6,
+      "n": 140
+     }
+    }
+   }
+  },
+  "principal_con_pareja_en_las_otras_dos_iou_0.5": {
+   "valor": 0.349,
+   "n": 129
+  }
+ },
+ "perfil": {
+  "nodos": {
+   "spearman_entre_corridas": [
+    0.985,
+    0.989,
+    0.988
+   ],
+   "spearman_media": 0.987,
+   "dif_relativa_mediana": 0.04
+  },
+  "episodios": {
+   "spearman_entre_corridas": [
+    0.848,
+    0.799,
+    0.743
+   ],
+   "spearman_media": 0.797,
+   "dif_relativa_mediana": 0.333
+  },
+  "delib_100n": {
+   "spearman_entre_corridas": [
+    0.751,
+    0.565,
+    0.608
+   ],
+   "spearman_media": 0.641,
+   "dif_relativa_mediana": 0.418
+  },
+  "ver_100n": {
+   "spearman_entre_corridas": [
+    0.647,
+    0.724,
+    0.489
+   ],
+   "spearman_media": 0.62,
+   "dif_relativa_mediana": 0.625
+  },
+  "cor_100n": {
+   "spearman_entre_corridas": [
+    0.39,
+    0.271,
+    0.672
+   ],
+   "spearman_media": 0.444,
+   "dif_relativa_mediana": 0.089
+  },
+  "alt_100n": {
+   "spearman_entre_corridas": [
+    0.725,
+    0.534,
+    0.63
+   ],
+   "spearman_media": 0.63,
+   "dif_relativa_mediana": 0.589
+  },
+  "cobertura": {
+   "spearman_entre_corridas": [
+    0.835,
+    0.841,
+    0.765
+   ],
+   "spearman_media": 0.814,
+   "dif_relativa_mediana": 0.318
+  },
+  "por_cadena": {
+   "LAW-1172--olmo-3.1-32b-think": {
+    "nodos": [
+     27,
+     26,
+     28
+    ],
+    "episodios": [
+     10,
+     11,
+     7
+    ],
+    "delib_100n": [
+     11.11,
+     23.08,
+     3.57
+    ],
+    "ver_100n": [
+     0.0,
+     3.85,
+     0.0
+    ]
+   },
+   "LAW-1173--deepseek-v4-pro": {
+    "nodos": [
+     47,
+     48,
+     49
+    ],
+    "episodios": [
+     5,
+     5,
+     7
+    ],
+    "delib_100n": [
+     4.26,
+     4.17,
+     6.12
+    ],
+    "ver_100n": [
+     2.13,
+     2.08,
+     4.08
+    ]
+   },
+   "LAW-1183--olmo-3.1-32b-think": {
+    "nodos": [
+     45,
+     45,
+     46
+    ],
+    "episodios": [
+     8,
+     7,
+     12
+    ],
+    "delib_100n": [
+     4.44,
+     2.22,
+     6.52
+    ],
+    "ver_100n": [
+     2.22,
+     2.22,
+     2.17
+    ]
+   },
+   "LAW-1283--gemma-4-31b-it": {
+    "nodos": [
+     61,
+     78,
+     66
+    ],
+    "episodios": [
+     20,
+     29,
+     33
+    ],
+    "delib_100n": [
+     21.31,
+     20.51,
+     25.76
+    ],
+    "ver_100n": [
+     3.28,
+     6.41,
+     10.61
+    ]
+   },
+   "LAW-1521--qwen3.8-27b": {
+    "nodos": [
+     200,
+     202,
+     213
+    ],
+    "episodios": [
+     14,
+     8,
+     15
+    ],
+    "delib_100n": [
+     4.5,
+     2.97,
+     4.69
+    ],
+    "ver_100n": [
+     0.0,
+     0.0,
+     0.47
+    ]
+   },
+   "LAW-1629--gemma-4-31b-it": {
+    "nodos": [
+     93,
+     97,
+     96
+    ],
+    "episodios": [
+     34,
+     33,
+     33
+    ],
+    "delib_100n": [
+     18.28,
+     8.25,
+     12.5
+    ],
+    "ver_100n": [
+     8.6,
+     5.15,
+     7.29
+    ]
+   },
+   "LAW-1817--qwen3.8-27b": {
+    "nodos": [
+     79,
+     79,
+     79
+    ],
+    "episodios": [
+     7,
+     14,
+     8
+    ],
+    "delib_100n": [
+     3.8,
+     12.66,
+     7.59
+    ],
+    "ver_100n": [
+     2.53,
+     8.86,
+     0.0
+    ]
+   },
+   "LAW-1961--deepseek-v4-pro": {
+    "nodos": [
+     95,
+     99,
+     100
+    ],
+    "episodios": [
+     9,
+     8,
+     18
+    ],
+    "delib_100n": [
+     2.11,
+     4.04,
+     13.0
+    ],
+    "ver_100n": [
+     1.05,
+     2.02,
+     2.0
+    ]
+   },
+   "MED-Text-1162--gemma-4-31b-it": {
+    "nodos": [
+     36,
+     57,
+     57
+    ],
+    "episodios": [
+     25,
+     13,
+     9
+    ],
+    "delib_100n": [
+     38.89,
+     8.77,
+     5.26
+    ],
+    "ver_100n": [
+     5.56,
+     1.75,
+     1.75
+    ]
+   },
+   "MED-Text-1657--gemma-4-31b-it": {
+    "nodos": [
+     77,
+     73,
+     75
+    ],
+    "episodios": [
+     13,
+     10,
+     13
+    ],
+    "delib_100n": [
+     11.69,
+     4.11,
+     5.33
+    ],
+    "ver_100n": [
+     10.39,
+     2.74,
+     4.0
+    ]
+   },
+   "MED-Text-1930--gemma-4-31b-it": {
+    "nodos": [
+     205,
+     208,
+     183
+    ],
+    "episodios": [
+     4,
+     5,
+     7
+    ],
+    "delib_100n": [
+     0.0,
+     1.44,
+     1.09
+    ],
+    "ver_100n": [
+     0.0,
+     0.96,
+     0.55
+    ]
+   },
+   "MED-Text-1995--qwen3.8-27b": {
+    "nodos": [
+     170,
+     170,
+     158
+    ],
+    "episodios": [
+     3,
+     6,
+     6
+    ],
+    "delib_100n": [
+     0.59,
+     1.18,
+     1.27
+    ],
+    "ver_100n": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "MED-Text-347--qwen3.8-27b": {
+    "nodos": [
+     365,
+     362,
+     362
+    ],
+    "episodios": [
+     6,
+     6,
+     7
+    ],
+    "delib_100n": [
+     1.1,
+     1.38,
+     1.38
+    ],
+    "ver_100n": [
+     0.27,
+     0.28,
+     0.0
+    ]
+   },
+   "MED-Text-453--deepseek-v4-pro": {
+    "nodos": [
+     153,
+     155,
+     163
+    ],
+    "episodios": [
+     8,
+     5,
+     2
+    ],
+    "delib_100n": [
+     2.61,
+     0.65,
+     0.61
+    ],
+    "ver_100n": [
+     1.31,
+     0.65,
+     0.61
+    ]
+   },
+   "MED-Text-453--olmo-3.1-32b-think": {
+    "nodos": [
+     63,
+     67,
+     72
+    ],
+    "episodios": [
+     19,
+     23,
+     13
+    ],
+    "delib_100n": [
+     11.11,
+     8.96,
+     8.33
+    ],
+    "ver_100n": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "MED-Text-521--deepseek-v4-pro": {
+    "nodos": [
+     110,
+     113,
+     102
+    ],
+    "episodios": [
+     15,
+     12,
+     16
+    ],
+    "delib_100n": [
+     9.09,
+     7.08,
+     9.8
+    ],
+    "ver_100n": [
+     1.82,
+     0.88,
+     1.96
+    ]
+   },
+   "MED-Text-521--qwen3.8-27b": {
+    "nodos": [
+     160,
+     154,
+     145
+    ],
+    "episodios": [
+     3,
+     3,
+     4
+    ],
+    "delib_100n": [
+     1.25,
+     1.3,
+     2.07
+    ],
+    "ver_100n": [
+     0.0,
+     0.0,
+     0.69
+    ]
+   },
+   "MED-Text-601--olmo-3.1-32b-think": {
+    "nodos": [
+     322,
+     320,
+     328
+    ],
+    "episodios": [
+     31,
+     39,
+     34
+    ],
+    "delib_100n": [
+     4.66,
+     7.19,
+     5.79
+    ],
+    "ver_100n": [
+     0.93,
+     0.94,
+     0.91
+    ]
+   },
+   "MED-Text-704--deepseek-v4-pro": {
+    "nodos": [
+     69,
+     73,
+     73
+    ],
+    "episodios": [
+     5,
+     10,
+     7
+    ],
+    "delib_100n": [
+     5.8,
+     5.48,
+     5.48
+    ],
+    "ver_100n": [
+     4.35,
+     1.37,
+     1.37
+    ]
+   },
+   "MED-Text-750--olmo-3.1-32b-think": {
+    "nodos": [
+     223,
+     227,
+     237
+    ],
+    "episodios": [
+     16,
+     25,
+     11
+    ],
+    "delib_100n": [
+     3.59,
+     6.61,
+     1.69
+    ],
+    "ver_100n": [
+     0.45,
+     2.2,
+     0.84
+    ]
+   }
+  }
+ },
+ "orden_modelos": {
+  "ver_100n": [
+   {
+    "Gemma": 5.56,
+    "DeepSeek": 1.82,
+    "Olmo": 0.45,
+    "Qwen": 0.0
+   },
+   {
+    "Gemma": 2.74,
+    "Olmo": 2.2,
+    "DeepSeek": 1.37,
+    "Qwen": 0.0
+   },
+   {
+    "Gemma": 4.0,
+    "DeepSeek": 1.96,
+    "Olmo": 0.84,
+    "Qwen": 0.0
+   }
+  ],
+  "delib_100n": [
+   {
+    "Gemma": 18.28,
+    "Olmo": 4.66,
+    "DeepSeek": 4.26,
+    "Qwen": 1.25
+   },
+   {
+    "Gemma": 8.25,
+    "Olmo": 7.19,
+    "DeepSeek": 4.17,
+    "Qwen": 1.38
+   },
+   {
+    "DeepSeek": 6.12,
+    "Olmo": 5.79,
+    "Gemma": 5.33,
+    "Qwen": 2.07
+   }
+  ],
+  "alt_100n": [
+   {
+    "Gemma": 9.68,
+    "Olmo": 3.11,
+    "DeepSeek": 1.45,
+    "Qwen": 0.27
+   },
+   {
+    "Olmo": 5.31,
+    "DeepSeek": 2.08,
+    "Gemma": 2.06,
+    "Qwen": 1.18
+   },
+   {
+    "Olmo": 3.96,
+    "Gemma": 3.51,
+    "DeepSeek": 2.74,
+    "Qwen": 0.63
+   }
+  ]
+ }
+}

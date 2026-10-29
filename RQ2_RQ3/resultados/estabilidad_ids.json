@@ -1,0 +1,22 @@
+[
+ "LAW-1173--deepseek-v4-pro",
+ "LAW-1961--deepseek-v4-pro",
+ "MED-Text-453--deepseek-v4-pro",
+ "MED-Text-521--deepseek-v4-pro",
+ "MED-Text-704--deepseek-v4-pro",
+ "LAW-1521--qwen3.8-27b",
+ "LAW-1817--qwen3.8-27b",
+ "MED-Text-1995--qwen3.8-27b",
+ "MED-Text-347--qwen3.8-27b",
+ "MED-Text-521--qwen3.8-27b",
+ "LAW-1172--olmo-3.1-32b-think",
+ "LAW-1183--olmo-3.1-32b-think",
+ "MED-Text-453--olmo-3.1-32b-think",
+ "MED-Text-601--olmo-3.1-32b-think",
+ "MED-Text-750--olmo-3.1-32b-think",
+ "LAW-1283--gemma-4-31b-it",
+ "LAW-1629--gemma-4-31b-it",
+ "MED-Text-1162--gemma-4-31b-it",
+ "MED-Text-1657--gemma-4-31b-it",
+ "MED-Text-1930--gemma-4-31b-it"
+]

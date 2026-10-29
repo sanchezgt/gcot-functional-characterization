@@ -1,0 +1,444 @@
+problem_id,dataset,domain,stratum,words_qwen3.8-27b,words_gemma-4-31b-it,words_olmo-3.1-32b-think,words_deepseek-v4-pro,answered_qwen3.8-27b,answered_gemma-4-31b-it,answered_olmo-3.1-32b-think,answered_deepseek-v4-pro,accepted
+MED-Text-151,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9933,2651,,5170,yes,yes,,yes,no
+MED-Text-1177,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,15375,3640,,2532,yes,yes,,yes,no
+MED-Text-1029,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,14960,3471,,6446,yes,yes,,yes,no
+MED-Text-1869,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9099,1909,,7960,yes,yes,,yes,no
+MED-Text-1575,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5657,1134,,1036,yes,yes,,yes,no
+MED-Text-1465,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,11033,2345,,9535,yes,yes,,yes,no
+MED-Text-234,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6470,1731,,2684,yes,yes,,yes,no
+MED-Text-1482,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2154,2812,7453,3166,yes,yes,yes,yes,no
+MED-Text-2419,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,994,1910,2621,3819,yes,yes,yes,yes,yes
+MED-Text-875,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2658,4311,,3848,yes,yes,,yes,no
+MED-Text-453,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,764,1076,869,1776,yes,yes,yes,yes,yes
+MED-Text-1930,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1353,2802,2991,3332,yes,yes,yes,yes,yes
+MED-Text-1789,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,15367,2342,,5132,yes,yes,,yes,no
+MED-Text-1909,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4567,2847,,1516,yes,yes,,yes,no
+MED-Text-1358,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9959,3994,,11341,yes,yes,,yes,no
+MED-Text-969,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,280,1619,2075,321,yes,yes,yes,yes,yes
+MED-Text-604,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1309,1087,1869,3997,yes,yes,yes,yes,yes
+MED-Text-2169,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3155,2009,5300,7703,yes,yes,yes,yes,no
+MED-Text-1280,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2940,3295,5529,4342,yes,yes,yes,yes,no
+MED-Text-840,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,331,2219,3136,5386,yes,yes,yes,yes,no
+MED-Text-1995,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1901,1739,3132,2661,yes,yes,yes,yes,yes
+MED-Text-218,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,11564,2378,,3427,yes,yes,,yes,no
+MED-Text-446,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,19626,3086,,2918,no,yes,,yes,no
+MED-Text-787,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9142,2124,,9454,yes,yes,,yes,no
+MED-Text-647,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,13478,5043,,14611,yes,yes,,yes,no
+MED-Text-1591,TsinghuaC3I/MedXpertQA,medicina,Treatment,9157,1764,,21407,yes,yes,,yes,no
+MED-Text-1039,TsinghuaC3I/MedXpertQA,medicina,Treatment,6844,3171,,4826,yes,yes,,yes,no
+MED-Text-1651,TsinghuaC3I/MedXpertQA,medicina,Treatment,331,1203,6538,224,yes,yes,yes,yes,no
+MED-Text-1352,TsinghuaC3I/MedXpertQA,medicina,Treatment,892,836,681,166,yes,yes,yes,yes,yes
+MED-Text-1590,TsinghuaC3I/MedXpertQA,medicina,Treatment,9578,1883,,14951,yes,yes,,yes,no
+MED-Text-1594,TsinghuaC3I/MedXpertQA,medicina,Treatment,5384,1968,,1421,yes,yes,,yes,no
+MED-Text-1137,TsinghuaC3I/MedXpertQA,medicina,Treatment,4975,1482,,5778,yes,yes,,yes,no
+MED-Text-872,TsinghuaC3I/MedXpertQA,medicina,Treatment,13147,2795,,4215,yes,yes,,yes,no
+MED-Text-985,TsinghuaC3I/MedXpertQA,medicina,Treatment,11845,3250,,243,yes,yes,,yes,no
+MED-Text-300,TsinghuaC3I/MedXpertQA,medicina,Treatment,2250,1723,5140,1756,yes,yes,yes,yes,no
+MED-Text-174,TsinghuaC3I/MedXpertQA,medicina,Treatment,15273,4073,,16940,yes,yes,,yes,no
+MED-Text-1471,TsinghuaC3I/MedXpertQA,medicina,Treatment,612,1403,8112,347,yes,yes,yes,yes,no
+MED-Text-1805,TsinghuaC3I/MedXpertQA,medicina,Treatment,502,1340,2381,688,yes,yes,yes,yes,yes
+MED-Text-191,TsinghuaC3I/MedXpertQA,medicina,Treatment,5429,2975,,677,yes,yes,,yes,no
+MED-Text-2340,TsinghuaC3I/MedXpertQA,medicina,Treatment,1215,652,5765,720,yes,yes,yes,yes,no
+MED-Text-2104,TsinghuaC3I/MedXpertQA,medicina,Treatment,10362,2268,,20691,yes,yes,,no,no
+MED-Text-1718,TsinghuaC3I/MedXpertQA,medicina,Treatment,14080,2275,,1350,yes,yes,,yes,no
+MED-Text-1958,TsinghuaC3I/MedXpertQA,medicina,Treatment,1505,2871,3484,6119,yes,yes,yes,yes,no
+MED-Text-1622,TsinghuaC3I/MedXpertQA,medicina,Treatment,4975,1354,,589,yes,yes,,yes,no
+MED-Text-1378,TsinghuaC3I/MedXpertQA,medicina,Treatment,7582,3596,,4012,yes,yes,,yes,no
+MED-Text-2237,TsinghuaC3I/MedXpertQA,medicina,Treatment,438,1173,4392,630,yes,yes,yes,yes,no
+MED-Text-769,TsinghuaC3I/MedXpertQA,medicina,Treatment,2897,1149,5392,563,yes,yes,yes,yes,no
+MED-Text-1305,TsinghuaC3I/MedXpertQA,medicina,Treatment,3308,2529,4144,1351,yes,yes,yes,yes,no
+MED-Text-601,TsinghuaC3I/MedXpertQA,medicina,Treatment,1453,1093,3440,2425,yes,yes,yes,yes,yes
+MED-Text-1851,TsinghuaC3I/MedXpertQA,medicina,Treatment,949,587,1064,330,yes,yes,yes,yes,yes
+LAW-1811,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,6829,2151,,914,yes,yes,,yes,no
+LAW-1472,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,5173,4033,,1165,yes,yes,,yes,no
+LAW-1654,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12277,3764,,12865,yes,yes,,yes,no
+LAW-895,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12506,2329,,3977,yes,yes,,yes,no
+LAW-1038,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,24924,3235,,13986,no,yes,,yes,no
+LAW-1168,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,6817,4887,,2387,yes,yes,,yes,no
+LAW-1195,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2808,2174,4834,1515,yes,yes,yes,yes,no
+LAW-1194,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,3817,3351,4985,686,yes,yes,yes,yes,no
+LAW-1937,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,1237,2373,7211,2878,yes,yes,yes,yes,no
+LAW-1706,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,3771,696,5940,3658,yes,yes,yes,yes,no
+LAW-1395,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,1442,1829,4800,554,yes,yes,yes,yes,no
+LAW-1734,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,16522,3250,,11997,yes,yes,,yes,no
+LAW-1047,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,8320,2869,,155,yes,yes,,yes,no
+LAW-1248,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,4201,2636,,819,yes,yes,,yes,no
+LAW-1226,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,7341,3367,,8548,yes,yes,,yes,no
+LAW-879,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,503,1731,4717,4397,yes,yes,yes,yes,no
+LAW-1019,TIGER-Lab/MMLU-Pro,derecho,Evidence,438,3196,7273,829,yes,yes,yes,yes,no
+LAW-1134,TIGER-Lab/MMLU-Pro,derecho,Evidence,1539,2041,5511,1354,yes,yes,yes,yes,no
+LAW-1042,TIGER-Lab/MMLU-Pro,derecho,Evidence,20681,3911,,1474,yes,yes,,yes,no
+LAW-1247,TIGER-Lab/MMLU-Pro,derecho,Evidence,1818,1722,5117,10878,yes,yes,yes,yes,no
+LAW-1817,TIGER-Lab/MMLU-Pro,derecho,Evidence,931,1284,2219,2053,yes,yes,yes,yes,yes
+LAW-1864,TIGER-Lab/MMLU-Pro,derecho,Evidence,7465,2593,,4880,yes,yes,,yes,no
+LAW-1879,TIGER-Lab/MMLU-Pro,derecho,Evidence,4279,1792,,465,yes,yes,,yes,no
+LAW-1802,TIGER-Lab/MMLU-Pro,derecho,Evidence,18258,2391,,1562,yes,yes,,yes,no
+LAW-1320,TIGER-Lab/MMLU-Pro,derecho,Contracts,129,1127,3355,474,yes,yes,yes,yes,yes
+LAW-1749,TIGER-Lab/MMLU-Pro,derecho,Contracts,4308,2249,,2865,yes,yes,,yes,no
+LAW-1915,TIGER-Lab/MMLU-Pro,derecho,Contracts,6311,3013,,3552,yes,yes,,yes,no
+LAW-1163,TIGER-Lab/MMLU-Pro,derecho,Contracts,2488,1840,5760,529,yes,yes,yes,yes,no
+LAW-1726,TIGER-Lab/MMLU-Pro,derecho,Contracts,899,1327,7380,2115,yes,yes,yes,yes,no
+LAW-921,TIGER-Lab/MMLU-Pro,derecho,Contracts,16261,4455,,4848,yes,yes,,yes,no
+LAW-1979,TIGER-Lab/MMLU-Pro,derecho,Contracts,7865,3152,,6405,yes,yes,,yes,no
+LAW-1323,TIGER-Lab/MMLU-Pro,derecho,Contracts,13161,3209,,5519,yes,yes,,yes,no
+LAW-1081,TIGER-Lab/MMLU-Pro,derecho,Torts,1610,881,692,240,yes,yes,yes,yes,yes
+LAW-1968,TIGER-Lab/MMLU-Pro,derecho,Torts,8843,2241,,6570,yes,yes,,yes,no
+LAW-1681,TIGER-Lab/MMLU-Pro,derecho,Torts,9542,5417,,2185,yes,yes,,yes,no
+LAW-1638,TIGER-Lab/MMLU-Pro,derecho,Torts,15184,1856,,5203,yes,yes,,yes,no
+LAW-1171,TIGER-Lab/MMLU-Pro,derecho,Torts,199,568,854,252,yes,yes,yes,yes,yes
+LAW-1450,TIGER-Lab/MMLU-Pro,derecho,Torts,7092,1893,,24973,yes,yes,,no,no
+LAW-1437,TIGER-Lab/MMLU-Pro,derecho,Torts,688,1685,4128,205,yes,yes,yes,yes,no
+LAW-1413,TIGER-Lab/MMLU-Pro,derecho,Torts,3534,2230,4411,2320,yes,yes,yes,yes,no
+LAW-1796,TIGER-Lab/MMLU-Pro,derecho,Real Property,24541,4448,,14750,yes,yes,,yes,no
+LAW-1833,TIGER-Lab/MMLU-Pro,derecho,Real Property,16315,2279,,20673,yes,yes,,yes,no
+LAW-1115,TIGER-Lab/MMLU-Pro,derecho,Real Property,13101,1428,,4464,yes,yes,,yes,no
+LAW-984,TIGER-Lab/MMLU-Pro,derecho,Real Property,8302,2334,,6805,yes,yes,,yes,no
+LAW-1353,TIGER-Lab/MMLU-Pro,derecho,Real Property,183,867,956,362,yes,yes,yes,yes,yes
+LAW-1609,TIGER-Lab/MMLU-Pro,derecho,Real Property,2350,3321,6275,1603,yes,yes,yes,yes,no
+LAW-1782,TIGER-Lab/MMLU-Pro,derecho,Real Property,24150,3580,,12214,no,yes,,yes,no
+LAW-1218,TIGER-Lab/MMLU-Pro,derecho,Real Property,1089,1910,9254,1171,yes,yes,yes,yes,no
+LAW-1172,TIGER-Lab/MMLU-Pro,derecho,Civil Procedure,424,945,477,265,yes,yes,yes,yes,yes
+LAW-1425,TIGER-Lab/MMLU-Pro,derecho,Civil Procedure,276,1826,3704,578,yes,yes,yes,yes,no
+MED-Text-1881,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,10395,,,,yes,,,,no
+LAW-1064,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2009,5005,,,yes,yes,,,no
+MED-Text-289,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,19536,,,,yes,,,,no
+MED-Text-378,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1224,2702,3628,3303,yes,yes,yes,yes,yes
+MED-Text-296,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4953,,,,yes,,,,no
+LAW-1533,TIGER-Lab/MMLU-Pro,derecho,Real Property,8978,,,,yes,,,,no
+MED-Text-933,TsinghuaC3I/MedXpertQA,medicina,Treatment,2995,1814,3338,1704,yes,yes,yes,yes,yes
+MED-Text-1960,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,21072,,,,yes,,,,no
+MED-Text-2248,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3070,3183,5016,,yes,yes,yes,,no
+MED-Text-733,TsinghuaC3I/MedXpertQA,medicina,Treatment,9243,,,,yes,,,,no
+LAW-959,TIGER-Lab/MMLU-Pro,derecho,Real Property,9823,,,,yes,,,,no
+MED-Text-1140,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1922,2908,3676,4349,yes,yes,yes,yes,no
+MED-Text-456,TsinghuaC3I/MedXpertQA,medicina,Treatment,5901,,,,yes,,,,no
+MED-Text-1657,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2194,1219,1322,2126,yes,yes,yes,yes,yes
+MED-Text-1138,TsinghuaC3I/MedXpertQA,medicina,Treatment,250,837,1894,49,yes,yes,yes,yes,yes
+MED-Text-441,TsinghuaC3I/MedXpertQA,medicina,Treatment,12486,,,,yes,,,,no
+MED-Text-1064,TsinghuaC3I/MedXpertQA,medicina,Treatment,2394,2960,4565,,yes,yes,yes,,no
+MED-Text-369,TsinghuaC3I/MedXpertQA,medicina,Treatment,624,2490,5497,,yes,yes,yes,,no
+MED-Text-1954,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2056,2728,1452,8947,yes,yes,yes,yes,no
+MED-Text-1162,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2038,657,3075,224,yes,yes,yes,yes,yes
+MED-Text-272,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,623,1552,3664,5473,yes,yes,yes,yes,no
+MED-Text-2155,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1521,1225,4407,,yes,yes,yes,,no
+MED-Text-1176,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,7093,,,,yes,,,,no
+LAW-1800,TIGER-Lab/MMLU-Pro,derecho,Contracts,840,1534,5312,,yes,yes,yes,,no
+MED-Text-521,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2252,2101,2351,1532,yes,yes,yes,yes,yes
+LAW-1273,TIGER-Lab/MMLU-Pro,derecho,Torts,17310,,,,yes,,,,no
+MED-Text-412,TsinghuaC3I/MedXpertQA,medicina,Treatment,20452,,,,yes,,,,no
+MED-Text-646,TsinghuaC3I/MedXpertQA,medicina,Treatment,11681,,,,yes,,,,no
+LAW-1853,TIGER-Lab/MMLU-Pro,derecho,Real Property,19300,,,,yes,,,,no
+MED-Text-1408,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5691,,,,yes,,,,no
+MED-Text-294,TsinghuaC3I/MedXpertQA,medicina,Treatment,1081,2222,4201,,yes,yes,yes,,no
+LAW-1953,TIGER-Lab/MMLU-Pro,derecho,Evidence,4560,,,,yes,,,,no
+MED-Text-2207,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6075,,,,yes,,,,no
+MED-Text-101,TsinghuaC3I/MedXpertQA,medicina,Treatment,1216,1842,4746,,yes,yes,yes,,no
+MED-Text-1756,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3891,1174,4757,,yes,yes,yes,,no
+MED-Text-2042,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12039,,,,yes,,,,no
+LAW-1629,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,1985,1542,2703,2654,yes,yes,yes,yes,yes
+MED-Text-1128,TsinghuaC3I/MedXpertQA,medicina,Treatment,9348,,,,yes,,,,no
+MED-Text-1762,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,805,1053,5018,,yes,yes,yes,,no
+MED-Text-85,TsinghuaC3I/MedXpertQA,medicina,Treatment,347,1546,855,796,yes,yes,yes,yes,no
+MED-Text-526,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4090,,,,yes,,,,no
+MED-Text-2279,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,7646,,,,yes,,,,no
+MED-Text-281,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2601,1747,6152,,yes,yes,yes,,no
+MED-Text-2418,TsinghuaC3I/MedXpertQA,medicina,Treatment,3398,1323,4541,,yes,yes,yes,,no
+MED-Text-1024,TsinghuaC3I/MedXpertQA,medicina,Treatment,3356,2622,2696,5188,yes,yes,yes,yes,no
+LAW-1586,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,5349,,,,yes,,,,no
+MED-Text-10,TsinghuaC3I/MedXpertQA,medicina,Treatment,14280,,,,yes,,,,no
+LAW-1531,TIGER-Lab/MMLU-Pro,derecho,Contracts,3106,2244,4830,,yes,yes,yes,,no
+MED-Text-414,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,15026,,,,yes,,,,no
+MED-Text-323,TsinghuaC3I/MedXpertQA,medicina,Treatment,14264,,,,yes,,,,no
+MED-Text-1758,TsinghuaC3I/MedXpertQA,medicina,Treatment,14263,,,,yes,,,,no
+MED-Text-342,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2688,3163,9881,,yes,yes,yes,,no
+MED-Text-228,TsinghuaC3I/MedXpertQA,medicina,Treatment,980,2531,5421,,yes,yes,yes,,no
+LAW-1813,TIGER-Lab/MMLU-Pro,derecho,Real Property,3640,1703,7412,,yes,yes,yes,,no
+MED-Text-1037,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12278,,,,yes,,,,no
+MED-Text-1675,TsinghuaC3I/MedXpertQA,medicina,Treatment,2877,2648,4420,,yes,yes,yes,,no
+LAW-1832,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,3600,1061,733,317,yes,yes,yes,yes,yes
+LAW-1524,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,13974,,,,yes,,,,no
+LAW-1628,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,385,736,1111,167,yes,yes,yes,yes,yes
+MED-Text-2168,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12204,,,,yes,,,,no
+MED-Text-1319,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,18827,,,,no,,,,no
+MED-Text-709,TsinghuaC3I/MedXpertQA,medicina,Treatment,6464,,,,yes,,,,no
+MED-Text-635,TsinghuaC3I/MedXpertQA,medicina,Treatment,2017,2696,4857,,yes,yes,yes,,no
+MED-Text-1875,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3124,3860,4334,,yes,yes,yes,,no
+LAW-1284,TIGER-Lab/MMLU-Pro,derecho,Evidence,2176,1342,5338,,yes,yes,yes,,no
+MED-Text-1065,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12360,,,,yes,,,,no
+MED-Text-833,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,431,1329,6826,,yes,yes,yes,,no
+LAW-1563,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,14123,,,,yes,,,,no
+MED-Text-494,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,21242,,,,no,,,,no
+MED-Text-2110,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,214,873,5586,,yes,yes,yes,,no
+MED-Text-285,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6236,,,,yes,,,,no
+MED-Text-394,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3931,1684,6264,,yes,yes,yes,,no
+MED-Text-1255,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,7861,,,,yes,,,,no
+MED-Text-936,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8839,,,,yes,,,,no
+MED-Text-44,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9284,,,,yes,,,,no
+MED-Text-431,TsinghuaC3I/MedXpertQA,medicina,Treatment,2799,771,3995,436,yes,yes,yes,yes,no
+LAW-1652,TIGER-Lab/MMLU-Pro,derecho,Torts,380,913,3671,375,yes,yes,yes,yes,yes
+MED-Text-2174,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,9235,,,,yes,,,,no
+MED-Text-1872,TsinghuaC3I/MedXpertQA,medicina,Treatment,4242,,,,yes,,,,no
+LAW-1687,TIGER-Lab/MMLU-Pro,derecho,Real Property,10624,,,,yes,,,,no
+MED-Text-1124,TsinghuaC3I/MedXpertQA,medicina,Treatment,6951,,,,yes,,,,no
+LAW-1146,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,592,1906,6639,,yes,yes,yes,,no
+LAW-1189,TIGER-Lab/MMLU-Pro,derecho,Real Property,13117,,,,yes,,,,no
+MED-Text-1268,TsinghuaC3I/MedXpertQA,medicina,Treatment,6496,,,,yes,,,,no
+MED-Text-2062,TsinghuaC3I/MedXpertQA,medicina,Treatment,4570,,,,yes,,,,no
+LAW-1243,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,6836,,,,yes,,,,no
+MED-Text-914,TsinghuaC3I/MedXpertQA,medicina,Treatment,3064,2119,5959,,yes,yes,yes,,no
+MED-Text-1474,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4121,,,,yes,,,,no
+MED-Text-626,TsinghuaC3I/MedXpertQA,medicina,Treatment,3099,3855,3802,726,yes,yes,yes,yes,no
+MED-Text-1653,TsinghuaC3I/MedXpertQA,medicina,Treatment,7977,,,,yes,,,,no
+MED-Text-1698,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,17759,,,,yes,,,,no
+LAW-1393,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,11351,,,,yes,,,,no
+LAW-1985,TIGER-Lab/MMLU-Pro,derecho,Real Property,21741,,,,yes,,,,no
+LAW-1261,TIGER-Lab/MMLU-Pro,derecho,Torts,19334,,,,yes,,,,no
+MED-Text-121,TsinghuaC3I/MedXpertQA,medicina,Treatment,7521,,,,yes,,,,no
+MED-Text-2002,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2763,3069,4263,,yes,yes,yes,,no
+MED-Text-1468,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8259,,,,yes,,,,no
+LAW-1547,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12774,,,,yes,,,,no
+MED-Text-2379,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5734,,,,yes,,,,no
+MED-Text-1723,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2305,3273,3182,1647,yes,yes,yes,yes,no
+MED-Text-2080,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,11828,,,,yes,,,,no
+MED-Text-2003,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5768,,,,yes,,,,no
+LAW-1950,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,21406,,,,yes,,,,no
+LAW-1741,TIGER-Lab/MMLU-Pro,derecho,Real Property,15728,,,,yes,,,,no
+MED-Text-1849,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,21122,,,,no,,,,no
+MED-Text-1149,TsinghuaC3I/MedXpertQA,medicina,Treatment,3888,4556,,,yes,yes,,,no
+LAW-1722,TIGER-Lab/MMLU-Pro,derecho,Contracts,947,1415,3958,229,yes,yes,yes,yes,yes
+MED-Text-496,TsinghuaC3I/MedXpertQA,medicina,Treatment,2880,2843,3699,3257,yes,yes,yes,yes,no
+MED-Text-2291,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,183,766,986,124,yes,yes,yes,yes,yes
+MED-Text-2129,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,954,2508,2989,501,yes,yes,yes,yes,no
+LAW-1634,TIGER-Lab/MMLU-Pro,derecho,Real Property,15821,,,,yes,,,,no
+MED-Text-282,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12616,,,,yes,,,,no
+MED-Text-2078,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6528,,,,yes,,,,no
+MED-Text-146,TsinghuaC3I/MedXpertQA,medicina,Treatment,13313,,,,yes,,,,no
+MED-Text-2210,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3666,1682,5168,,yes,yes,yes,,no
+MED-Text-620,TsinghuaC3I/MedXpertQA,medicina,Treatment,382,2763,4497,,yes,yes,yes,,no
+MED-Text-1381,TsinghuaC3I/MedXpertQA,medicina,Treatment,702,708,641,128,yes,yes,yes,yes,yes
+LAW-1368,TIGER-Lab/MMLU-Pro,derecho,Evidence,5587,,,,yes,,,,no
+MED-Text-2068,TsinghuaC3I/MedXpertQA,medicina,Treatment,15621,,,,yes,,,,no
+MED-Text-1917,TsinghuaC3I/MedXpertQA,medicina,Treatment,4211,,,,yes,,,,no
+LAW-1694,TIGER-Lab/MMLU-Pro,derecho,Evidence,5035,,,,yes,,,,no
+LAW-1355,TIGER-Lab/MMLU-Pro,derecho,Evidence,14162,,,,yes,,,,no
+MED-Text-1672,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5636,,,,yes,,,,no
+LAW-1947,TIGER-Lab/MMLU-Pro,derecho,Torts,7819,,,,yes,,,,no
+MED-Text-1859,TsinghuaC3I/MedXpertQA,medicina,Treatment,153,782,5464,,yes,yes,yes,,no
+LAW-1507,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12865,,,,yes,,,,no
+MED-Text-497,TsinghuaC3I/MedXpertQA,medicina,Treatment,18118,,,,yes,,,,no
+MED-Text-1553,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,11475,,,,yes,,,,no
+LAW-1185,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,693,820,3226,260,yes,yes,yes,yes,yes
+MED-Text-1838,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2258,1215,5996,,yes,yes,yes,,no
+LAW-1605,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,6363,,,,yes,,,,no
+LAW-1269,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,1409,889,7248,,yes,yes,yes,,no
+MED-Text-2277,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,13906,,,,yes,,,,no
+MED-Text-2162,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,10548,,,,yes,,,,no
+LAW-1754,TIGER-Lab/MMLU-Pro,derecho,Contracts,15176,,,,yes,,,,no
+MED-Text-2410,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,20408,,,,no,,,,no
+LAW-1725,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,5324,,,,yes,,,,no
+MED-Text-750,TsinghuaC3I/MedXpertQA,medicina,Treatment,2576,2921,2665,196,yes,yes,yes,yes,yes
+MED-Text-764,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8680,,,,yes,,,,no
+MED-Text-748,TsinghuaC3I/MedXpertQA,medicina,Treatment,2095,1688,4946,,yes,yes,yes,,no
+MED-Text-347,TsinghuaC3I/MedXpertQA,medicina,Treatment,3994,1925,2232,2138,yes,yes,yes,yes,yes
+MED-Text-1500,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,3368,2545,2823,1342,yes,yes,yes,yes,no
+MED-Text-2139,TsinghuaC3I/MedXpertQA,medicina,Treatment,5107,,,,yes,,,,no
+MED-Text-1494,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12632,,,,yes,,,,no
+LAW-1954,TIGER-Lab/MMLU-Pro,derecho,Contracts,459,833,5560,,yes,yes,yes,,no
+MED-Text-927,TsinghuaC3I/MedXpertQA,medicina,Treatment,8309,,,,yes,,,,no
+LAW-1838,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,8418,,,,yes,,,,no
+MED-Text-2216,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2927,3637,4635,,yes,yes,yes,,no
+MED-Text-410,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,851,457,1466,220,yes,yes,yes,yes,no
+MED-Text-1291,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,806,2466,7082,,yes,yes,yes,,no
+MED-Text-202,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6884,,,,yes,,,,no
+LAW-1917,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,15881,,,,yes,,,,no
+MED-Text-1129,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4156,,,,yes,,,,no
+MED-Text-416,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,21634,,,,no,,,,no
+MED-Text-1405,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,15985,,,,yes,,,,no
+MED-Text-257,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8171,,,,yes,,,,no
+MED-Text-2118,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1641,3093,1871,2287,yes,yes,yes,yes,yes
+MED-Text-273,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12327,,,,yes,,,,no
+LAW-1935,TIGER-Lab/MMLU-Pro,derecho,Contracts,10049,,,,yes,,,,no
+MED-Text-1230,TsinghuaC3I/MedXpertQA,medicina,Treatment,4895,,,,yes,,,,no
+MED-Text-793,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,7251,,,,yes,,,,no
+LAW-1349,TIGER-Lab/MMLU-Pro,derecho,Torts,847,1395,3385,1078,yes,yes,yes,yes,yes
+MED-Text-1512,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8229,,,,yes,,,,no
+MED-Text-1370,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1479,1703,7628,,yes,yes,yes,,no
+MED-Text-688,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8725,,,,yes,,,,no
+MED-Text-435,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4416,,,,yes,,,,no
+LAW-1223,TIGER-Lab/MMLU-Pro,derecho,Real Property,9103,,,,yes,,,,no
+LAW-1424,TIGER-Lab/MMLU-Pro,derecho,Contracts,21840,,,,no,,,,no
+MED-Text-1525,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4959,,,,yes,,,,no
+MED-Text-2013,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,20004,,,,no,,,,no
+MED-Text-1060,TsinghuaC3I/MedXpertQA,medicina,Treatment,16496,,,,yes,,,,no
+MED-Text-482,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1265,1597,5090,,yes,yes,yes,,no
+MED-Text-617,TsinghuaC3I/MedXpertQA,medicina,Treatment,3792,1028,5212,,yes,yes,yes,,no
+MED-Text-403,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12787,,,,yes,,,,no
+LAW-1085,TIGER-Lab/MMLU-Pro,derecho,Torts,6495,,,,yes,,,,no
+LAW-1961,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,1454,3400,2565,1107,yes,yes,yes,yes,yes
+MED-Text-2280,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8083,,,,yes,,,,no
+MED-Text-89,TsinghuaC3I/MedXpertQA,medicina,Treatment,5268,,,,yes,,,,no
+MED-Text-869,TsinghuaC3I/MedXpertQA,medicina,Treatment,1841,1785,7037,,yes,yes,yes,,no
+MED-Text-2254,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,413,711,5854,,yes,yes,yes,,no
+MED-Text-1351,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,11506,,,,yes,,,,no
+MED-Text-1246,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4958,,,,yes,,,,no
+MED-Text-2376,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1864,1101,5102,,yes,yes,yes,,no
+MED-Text-1814,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5887,,,,yes,,,,no
+MED-Text-170,TsinghuaC3I/MedXpertQA,medicina,Treatment,21949,,,,yes,,,,no
+MED-Text-1597,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,862,2257,4732,,yes,yes,yes,,no
+LAW-1229,TIGER-Lab/MMLU-Pro,derecho,Real Property,21347,,,,yes,,,,no
+MED-Text-1086,TsinghuaC3I/MedXpertQA,medicina,Treatment,20535,,,,no,,,,no
+LAW-1260,TIGER-Lab/MMLU-Pro,derecho,Evidence,1197,929,6956,,yes,yes,yes,,no
+LAW-1144,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,17474,,,,yes,,,,no
+MED-Text-1889,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5932,,,,yes,,,,no
+LAW-1237,TIGER-Lab/MMLU-Pro,derecho,Real Property,7148,,,,yes,,,,no
+MED-Text-484,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,7178,,,,yes,,,,no
+MED-Text-1257,TsinghuaC3I/MedXpertQA,medicina,Treatment,2531,2375,1031,1499,yes,yes,yes,yes,yes
+MED-Text-1402,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,4439,,,,yes,,,,no
+MED-Text-2304,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,24595,,,,no,,,,no
+MED-Text-1739,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,6995,,,,yes,,,,no
+MED-Text-1786,TsinghuaC3I/MedXpertQA,medicina,Treatment,5806,,,,yes,,,,no
+LAW-1793,TIGER-Lab/MMLU-Pro,derecho,Real Property,274,1035,1233,227,yes,yes,yes,yes,yes
+MED-Text-110,TsinghuaC3I/MedXpertQA,medicina,Treatment,4862,,,,yes,,,,no
+LAW-876,TIGER-Lab/MMLU-Pro,derecho,Contracts,11342,,,,yes,,,,no
+LAW-1283,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2003,1116,2969,1430,yes,yes,yes,yes,yes
+MED-Text-340,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1528,3493,1235,249,yes,yes,yes,yes,yes
+MED-Text-161,TsinghuaC3I/MedXpertQA,medicina,Treatment,3197,3079,2655,6540,yes,yes,yes,yes,no
+LAW-1516,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,3721,1735,4868,,yes,yes,yes,,no
+MED-Text-1993,TsinghuaC3I/MedXpertQA,medicina,Treatment,8750,,,,yes,,,,no
+MED-Text-1457,TsinghuaC3I/MedXpertQA,medicina,Treatment,317,3753,2994,282,yes,yes,yes,yes,no
+LAW-951,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,3838,1881,5291,,yes,yes,yes,,no
+LAW-899,TIGER-Lab/MMLU-Pro,derecho,Evidence,5084,,,,yes,,,,no
+MED-Text-669,TsinghuaC3I/MedXpertQA,medicina,Treatment,410,951,2849,296,yes,yes,yes,yes,yes
+MED-Text-827,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,14532,,,,yes,,,,no
+MED-Text-1454,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12192,,,,yes,,,,no
+LAW-1431,TIGER-Lab/MMLU-Pro,derecho,Contracts,1218,1262,4770,,yes,yes,yes,,no
+LAW-1007,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,5228,,,,yes,,,,no
+MED-Text-1809,TsinghuaC3I/MedXpertQA,medicina,Treatment,4698,,,,yes,,,,no
+MED-Text-761,TsinghuaC3I/MedXpertQA,medicina,Treatment,725,710,7147,,yes,yes,yes,,no
+MED-Text-2126,TsinghuaC3I/MedXpertQA,medicina,Treatment,3245,1616,1151,330,yes,yes,yes,yes,no
+LAW-1521,TIGER-Lab/MMLU-Pro,derecho,Evidence,3205,1560,3935,1669,yes,yes,yes,yes,yes
+MED-Text-1538,TsinghuaC3I/MedXpertQA,medicina,Treatment,707,1679,10081,,yes,yes,yes,,no
+LAW-1079,TIGER-Lab/MMLU-Pro,derecho,Torts,3644,3120,3044,1788,yes,yes,yes,yes,no
+MED-Text-312,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,8320,,,,yes,,,,no
+LAW-1036,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,13668,,,,yes,,,,no
+LAW-1037,TIGER-Lab/MMLU-Pro,derecho,Torts,269,1439,4202,,yes,yes,yes,,no
+MED-Text-2051,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,18369,,,,yes,,,,no
+LAW-1748,TIGER-Lab/MMLU-Pro,derecho,Contracts,14936,,,,yes,,,,no
+LAW-1590,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2684,3136,9766,,yes,yes,yes,,no
+MED-Text-1666,TsinghuaC3I/MedXpertQA,medicina,Treatment,17875,,,,yes,,,,no
+LAW-1396,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,15612,,,,yes,,,,no
+LAW-898,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,6353,,,,yes,,,,no
+LAW-1035,TIGER-Lab/MMLU-Pro,derecho,Contracts,2025,2788,4745,,yes,yes,yes,,no
+LAW-1335,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12951,,,,yes,,,,no
+MED-Text-1480,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,2687,1824,3030,6329,yes,yes,yes,yes,no
+MED-Text-64,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,1567,1932,1990,369,yes,yes,yes,yes,no
+LAW-870,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,9599,,,,yes,,,,no
+MED-Text-1527,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,5378,,,,yes,,,,no
+MED-Text-1183,TsinghuaC3I/MedXpertQA,medicina,Treatment,12664,,,,yes,,,,no
+MED-Text-1506,TsinghuaC3I/MedXpertQA,medicina,Treatment,1532,1539,6550,,yes,yes,yes,,no
+LAW-1336,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2126,1962,10668,,yes,yes,yes,,no
+MED-Text-359,TsinghuaC3I/MedXpertQA,medicina,Treatment,1267,2652,4018,,yes,yes,yes,,no
+MED-Text-16,TsinghuaC3I/MedXpertQA,medicina,Treatment,19980,,,,yes,,,,no
+MED-Text-1914,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,21271,,,,no,,,,no
+LAW-1061,TIGER-Lab/MMLU-Pro,derecho,Contracts,17958,,,,yes,,,,no
+LAW-1867,TIGER-Lab/MMLU-Pro,derecho,Contracts,2372,3152,5770,,yes,yes,yes,,no
+LAW-1170,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,12222,,,,yes,,,,no
+LAW-1211,TIGER-Lab/MMLU-Pro,derecho,Torts,3117,1899,8226,,yes,yes,yes,,no
+LAW-1924,TIGER-Lab/MMLU-Pro,derecho,Real Property,22786,,,,no,,,,no
+MED-Text-1383,TsinghuaC3I/MedXpertQA,medicina,Treatment,6103,,,,yes,,,,no
+MED-Text-1180,TsinghuaC3I/MedXpertQA,medicina,Treatment,1270,1594,6069,,yes,yes,yes,,no
+LAW-969,TIGER-Lab/MMLU-Pro,derecho,Contracts,4377,,,,yes,,,,no
+MED-Text-618,TsinghuaC3I/MedXpertQA,medicina,Treatment,395,1650,1290,4695,yes,yes,yes,yes,no
+MED-Text-704,TsinghuaC3I/MedXpertQA,medicina,Treatment,337,912,2576,669,yes,yes,yes,yes,yes
+MED-Text-2284,TsinghuaC3I/MedXpertQA,medicina,Treatment,14090,,,,yes,,,,no
+LAW-919,TIGER-Lab/MMLU-Pro,derecho,Real Property,8521,,,,yes,,,,no
+LAW-871,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,2395,1717,3232,5608,yes,yes,yes,yes,no
+MED-Text-1633,TsinghuaC3I/MedXpertQA,medicina,Treatment,6491,,,,yes,,,,no
+LAW-1416,TIGER-Lab/MMLU-Pro,derecho,Evidence,4978,,,,yes,,,,no
+LAW-1318,TIGER-Lab/MMLU-Pro,derecho,Evidence,20556,,,,yes,,,,no
+MED-Text-722,TsinghuaC3I/MedXpertQA,medicina,Treatment,677,1766,3961,691,yes,yes,yes,yes,no
+MED-Text-2406,TsinghuaC3I/MedXpertQA,medicina,Treatment,15792,,,,yes,,,,no
+LAW-1927,TIGER-Lab/MMLU-Pro,derecho,Torts,2501,2709,1825,5474,yes,yes,yes,yes,no
+LAW-1871,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,4594,,,,yes,,,,no
+LAW-1016,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,9149,,,,yes,,,,no
+LAW-1536,TIGER-Lab/MMLU-Pro,derecho,Real Property,1344,1338,6935,,yes,yes,yes,,no
+LAW-1854,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,8148,,,,yes,,,,no
+LAW-1333,TIGER-Lab/MMLU-Pro,derecho,Contracts,2563,1875,1730,23590,yes,yes,yes,yes,no
+MED-Text-2059,TsinghuaC3I/MedXpertQA,medicina,Treatment,4750,,,,yes,,,,no
+MED-Text-2209,TsinghuaC3I/MedXpertQA,medicina,Treatment,3731,618,3879,7403,yes,yes,yes,yes,no
+LAW-1100,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,6809,,,,yes,,,,no
+MED-Text-2093,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,664,890,5465,,yes,yes,yes,,no
+MED-Text-862,TsinghuaC3I/MedXpertQA,medicina,Diagnosis,12105,,,,yes,,,,no
+MED-Text-1013,TsinghuaC3I/MedXpertQA,medicina,Treatment,2766,3084,5626,,yes,yes,yes,,no
+LAW-1112,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,3179,4496,,,yes,yes,,,no
+LAW-1440,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,291,767,779,200,yes,yes,yes,yes,yes
+LAW-968,TIGER-Lab/MMLU-Pro,derecho,Evidence,671,1115,8040,,yes,yes,yes,,no
+LAW-1830,TIGER-Lab/MMLU-Pro,derecho,Real Property,23633,,,,no,,,,no
+LAW-906,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,17399,,,,yes,,,,no
+LAW-1772,TIGER-Lab/MMLU-Pro,derecho,Real Property,19388,,,,yes,,,,no
+LAW-1602,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,3195,845,3329,517,yes,yes,yes,yes,no
+LAW-1982,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,7685,,,,yes,,,,no
+LAW-1878,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,14869,,,,yes,,,,no
+LAW-1496,TIGER-Lab/MMLU-Pro,derecho,Evidence,3967,2999,4643,,yes,yes,yes,,no
+LAW-1632,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,1231,3058,1185,3370,yes,yes,yes,yes,no
+LAW-1851,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,5096,,,,yes,,,,no
+LAW-1792,TIGER-Lab/MMLU-Pro,derecho,Real Property,18379,,,,yes,,,,no
+LAW-1339,TIGER-Lab/MMLU-Pro,derecho,Evidence,1863,1496,4021,,yes,yes,yes,,no
+LAW-1866,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,1954,2012,6432,,yes,yes,yes,,no
+LAW-1006,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,5331,,,,yes,,,,no
+LAW-1173,TIGER-Lab/MMLU-Pro,derecho,Evidence,922,1632,1320,510,yes,yes,yes,yes,yes
+LAW-1266,TIGER-Lab/MMLU-Pro,derecho,Real Property,1361,1622,6474,,yes,yes,yes,,no
+LAW-1262,TIGER-Lab/MMLU-Pro,derecho,Torts,240,987,722,166,yes,yes,yes,yes,no
+LAW-1302,TIGER-Lab/MMLU-Pro,derecho,Evidence,21361,,,,yes,,,,no
+LAW-1732,TIGER-Lab/MMLU-Pro,derecho,Real Property,936,1398,4687,,yes,yes,yes,,no
+LAW-1370,TIGER-Lab/MMLU-Pro,derecho,Contracts,10031,,,,yes,,,,no
+LAW-1110,TIGER-Lab/MMLU-Pro,derecho,Evidence,1992,2904,5700,,yes,yes,yes,,no
+LAW-1155,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,788,1164,1780,690,yes,yes,yes,yes,no
+LAW-1183,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,263,1076,572,228,yes,yes,yes,yes,yes
+LAW-1719,TIGER-Lab/MMLU-Pro,derecho,Evidence,1160,3578,6341,,yes,yes,yes,,no
+LAW-1136,TIGER-Lab/MMLU-Pro,derecho,Torts,13649,,,,yes,,,,no
+LAW-954,TIGER-Lab/MMLU-Pro,derecho,Evidence,15451,,,,yes,,,,no
+LAW-939,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,2027,2547,2998,162,yes,yes,yes,yes,no
+LAW-1598,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,3700,1423,4851,,yes,yes,yes,,no
+LAW-1018,TIGER-Lab/MMLU-Pro,derecho,Criminal Law and Procedure,352,1983,1799,339,yes,yes,yes,yes,no
+LAW-1441,TIGER-Lab/MMLU-Pro,derecho,Contracts,16552,,,,yes,,,,no
+LAW-1076,TIGER-Lab/MMLU-Pro,derecho,Real Property,23916,,,,no,,,,no
+LAW-892,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,21430,,,,yes,,,,no
+LAW-1347,TIGER-Lab/MMLU-Pro,derecho,Constitutional Law,247,688,4268,,yes,yes,yes,,no
+LAW-1468,TIGER-Lab/MMLU-Pro,derecho,Evidence,572,1988,3165,821,yes,yes,yes,yes,yes
+LAW-1606,TIGER-Lab/MMLU-Pro,derecho,Evidence,11618,,,,yes,,,,no
+LAW-1116,TIGER-Lab/MMLU-Pro,derecho,Evidence,16525,,,,yes,,,,no
+LAW-1357,TIGER-Lab/MMLU-Pro,derecho,Evidence,2378,2190,6201,,yes,yes,yes,,no
+LAW-1141,TIGER-Lab/MMLU-Pro,derecho,Evidence,8980,,,,yes,,,,no
+LAW-1316,TIGER-Lab/MMLU-Pro,derecho,Evidence,11631,,,,yes,,,,no
+LAW-1898,TIGER-Lab/MMLU-Pro,derecho,Contracts,7954,,,,yes,,,,no
+LAW-1075,TIGER-Lab/MMLU-Pro,derecho,Real Property,11855,,,,yes,,,,no
+LAW-1612,TIGER-Lab/MMLU-Pro,derecho,Contracts,14681,,,,yes,,,,no
+LAW-1402,TIGER-Lab/MMLU-Pro,derecho,Real Property,9442,,,,yes,,,,no
+LAW-1614,TIGER-Lab/MMLU-Pro,derecho,Evidence,920,917,1000,356,yes,yes,yes,yes,no
+LAW-953,TIGER-Lab/MMLU-Pro,derecho,Real Property,3983,1069,1157,1145,yes,yes,yes,yes,yes
+LAW-1017,TIGER-Lab/MMLU-Pro,derecho,Real Property,2368,2046,6172,,yes,yes,yes,,no
+LAW-1433,TIGER-Lab/MMLU-Pro,derecho,Contracts,7206,,,,yes,,,,no
+LAW-1467,TIGER-Lab/MMLU-Pro,derecho,Contracts,6572,,,,yes,,,,no
+LAW-1797,TIGER-Lab/MMLU-Pro,derecho,Real Property,5014,,,,yes,,,,no
+LAW-1190,TIGER-Lab/MMLU-Pro,derecho,Contracts,5093,,,,yes,,,,no
+LAW-1513,TIGER-Lab/MMLU-Pro,derecho,Contracts,7372,,,,yes,,,,no
+LAW-944,TIGER-Lab/MMLU-Pro,derecho,Real Property,11879,,,,yes,,,,no
+LAW-1876,TIGER-Lab/MMLU-Pro,derecho,Evidence,5446,,,,yes,,,,no
+LAW-1475,TIGER-Lab/MMLU-Pro,derecho,Contracts,5655,,,,yes,,,,no
+LAW-1649,TIGER-Lab/MMLU-Pro,derecho,Contracts,886,5001,,,yes,yes,,,no
+LAW-1592,TIGER-Lab/MMLU-Pro,derecho,Contracts,18128,,,,yes,,,,no
+LAW-989,TIGER-Lab/MMLU-Pro,derecho,Real Property,1190,839,11950,,yes,yes,yes,,no
+LAW-1435,TIGER-Lab/MMLU-Pro,derecho,Real Property,3063,1905,7485,,yes,yes,yes,,no
+LAW-1203,TIGER-Lab/MMLU-Pro,derecho,Real Property,7588,,,,yes,,,,no
+LAW-1471,TIGER-Lab/MMLU-Pro,derecho,Contracts,3742,2592,4062,,yes,yes,yes,,no
+LAW-1106,TIGER-Lab/MMLU-Pro,derecho,Real Property,2542,1663,2418,1088,yes,yes,yes,yes,yes
+LAW-1090,TIGER-Lab/MMLU-Pro,derecho,Real Property,23439,,,,yes,,,,no
+LAW-1446,TIGER-Lab/MMLU-Pro,derecho,Contracts,11725,,,,yes,,,,no
+LAW-1767,TIGER-Lab/MMLU-Pro,derecho,Contracts,448,3610,1693,778,yes,yes,yes,yes,yes
+LAW-1228,TIGER-Lab/MMLU-Pro,derecho,Contracts,5029,,,,yes,,,,no
+LAW-935,TIGER-Lab/MMLU-Pro,derecho,Contracts,24377,,,,no,,,,no
+LAW-907,TIGER-Lab/MMLU-Pro,derecho,Contracts,3779,613,5750,,yes,yes,yes,,no
+LAW-1918,TIGER-Lab/MMLU-Pro,derecho,Contracts,7657,,,,yes,,,,no
+LAW-1570,TIGER-Lab/MMLU-Pro,derecho,Contracts,3266,1637,3214,973,yes,yes,yes,yes,yes
+LAW-1008,TIGER-Lab/MMLU-Pro,derecho,Contracts,1309,2416,5323,,yes,yes,yes,,no

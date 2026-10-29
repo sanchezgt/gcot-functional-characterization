@@ -1,0 +1,5566 @@
+{
+ "regla_de_deteccion": "IoU >= 0.5; CORRECTION tras VERIFICATION:REFUTED: cobertura del pasaje ≥ 0,5 y episodio dentro del tramo verificación–corrección",
+ "cadenas_sin_salida_en_corrida_principal": [],
+ "agregado": {
+  "cadenas_puntuadas": 130,
+  "cadenas_con_error": [],
+  "pasajes_plantados": 204,
+  "sensibilidad_tipo": {
+   "n": 204,
+   "valor": 0.868
+  },
+  "sensibilidad_tipo_laxa": {
+   "n": 204,
+   "valor": 0.882
+  },
+  "sensibilidad_tipo_desenlace": {
+   "n": 204,
+   "valor": 0.863
+  },
+  "sensibilidad_explicitos_tipo": {
+   "n": 108,
+   "valor": 1.0
+  },
+  "sensibilidad_explicitos_tipo_desenlace": {
+   "n": 108,
+   "valor": 1.0
+  },
+  "desenlace_correcto_entre_detectados": {
+   "n": 177,
+   "valor": 0.994
+  },
+  "confusiones_de_tipo": 4,
+  "falsos_positivos_total": 15,
+  "falsos_positivos_por_cadena": 0.115,
+  "falsos_positivos_por_cadena_nulas_P00_P12": 0.071,
+  "falsos_positivos_por_cadena_P00": 0.0,
+  "falsos_positivos_por_cadena_P12": 0.143,
+  "precision": 0.903,
+  "relacion_ok_entre_detectados": {
+   "n": 177,
+   "valor": 0.859
+  },
+  "relacion_ok_explicitos": {
+   "n": 108,
+   "valor": 0.861
+  },
+  "ancla_ok_entre_detectados": {
+   "n": 177,
+   "valor": 0.91
+  },
+  "ruta_ver_corr": {
+   "n": 39,
+   "valor": 0.872
+  },
+  "linea_abandonada_ok": {
+   "n": 14,
+   "valor": 0.5
+  },
+  "por_tipo": {
+   "ALTERNATIVE": {
+    "sensibilidad_tipo": 0.759,
+    "sensibilidad_tipo_desenlace": 0.759,
+    "n": 54
+   },
+   "CORRECTION": {
+    "sensibilidad_tipo": 0.941,
+    "sensibilidad_tipo_desenlace": 0.941,
+    "n": 51
+   },
+   "VERIFICATION": {
+    "sensibilidad_tipo": 0.889,
+    "sensibilidad_tipo_desenlace": 0.879,
+    "n": 99
+   }
+  },
+  "por_explicitud": {
+   "explicita": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 108
+   },
+   "implicita": {
+    "sensibilidad_tipo": 0.719,
+    "sensibilidad_tipo_desenlace": 0.708,
+    "n": 96
+   }
+  },
+  "por_acuerdo_ciego": {
+   "None": {
+    "sensibilidad_tipo": 0.868,
+    "sensibilidad_tipo_desenlace": 0.863,
+    "n": 204
+   }
+  },
+  "por_plantilla": {
+   "P01": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P02": {
+    "sensibilidad_tipo": 0.714,
+    "sensibilidad_tipo_desenlace": 0.714,
+    "n": 7
+   },
+   "P03": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 12
+   },
+   "P04": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 12
+   },
+   "P05": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P06": {
+    "sensibilidad_tipo": 0.667,
+    "sensibilidad_tipo_desenlace": 0.667,
+    "n": 6
+   },
+   "P07": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P08": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P09": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P10": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 18
+   },
+   "P11": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 12
+   },
+   "P13": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 24
+   },
+   "P14": {
+    "sensibilidad_tipo": 0.694,
+    "sensibilidad_tipo_desenlace": 0.694,
+    "n": 36
+   },
+   "P15": {
+    "sensibilidad_tipo": 0.571,
+    "sensibilidad_tipo_desenlace": 0.429,
+    "n": 7
+   },
+   "P16": {
+    "sensibilidad_tipo": 0.25,
+    "sensibilidad_tipo_desenlace": 0.25,
+    "n": 8
+   },
+   "P17": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 6
+   },
+   "P18": {
+    "sensibilidad_tipo": 1.0,
+    "sensibilidad_tipo_desenlace": 1.0,
+    "n": 12
+   },
+   "P19": {
+    "sensibilidad_tipo": 0.786,
+    "sensibilidad_tipo_desenlace": 0.786,
+    "n": 14
+   }
+  },
+  "por_dominio": {
+   "derecho": {
+    "sensibilidad_tipo": 0.821,
+    "sensibilidad_tipo_desenlace": 0.821,
+    "n": 28
+   },
+   "economia": {
+    "sensibilidad_tipo": 0.913,
+    "sensibilidad_tipo_desenlace": 0.913,
+    "n": 23
+   },
+   "etica": {
+    "sensibilidad_tipo": 0.846,
+    "sensibilidad_tipo_desenlace": 0.846,
+    "n": 13
+   },
+   "fisica": {
+    "sensibilidad_tipo": 0.905,
+    "sensibilidad_tipo_desenlace": 0.905,
+    "n": 21
+   },
+   "informatica": {
+    "sensibilidad_tipo": 0.909,
+    "sensibilidad_tipo_desenlace": 0.909,
+    "n": 22
+   },
+   "logica": {
+    "sensibilidad_tipo": 0.789,
+    "sensibilidad_tipo_desenlace": 0.789,
+    "n": 19
+   },
+   "matematicas": {
+    "sensibilidad_tipo": 0.821,
+    "sensibilidad_tipo_desenlace": 0.786,
+    "n": 28
+   },
+   "medicina": {
+    "sensibilidad_tipo": 0.879,
+    "sensibilidad_tipo_desenlace": 0.879,
+    "n": 33
+   },
+   "quimica": {
+    "sensibilidad_tipo": 0.941,
+    "sensibilidad_tipo_desenlace": 0.941,
+    "n": 17
+   }
+  },
+  "por_estilo": {
+   "deepseek": {
+    "sensibilidad_tipo": 0.86,
+    "sensibilidad_tipo_desenlace": 0.86,
+    "n": 43
+   },
+   "escolar": {
+    "sensibilidad_tipo": 0.75,
+    "sensibilidad_tipo_desenlace": 0.75,
+    "n": 32
+   },
+   "narrativo": {
+    "sensibilidad_tipo": 0.905,
+    "sensibilidad_tipo_desenlace": 0.881,
+    "n": 42
+   },
+   "qwen": {
+    "sensibilidad_tipo": 0.886,
+    "sensibilidad_tipo_desenlace": 0.886,
+    "n": 44
+   },
+   "terso": {
+    "sensibilidad_tipo": 0.907,
+    "sensibilidad_tipo_desenlace": 0.907,
+    "n": 43
+   }
+  }
+ },
+ "estabilidad": {
+  "pasajes_con_varias_corridas": 0
+ },
+ "condicion_de_paso": {
+  "sensibilidad_tipo_y_desenlace_explicitos": {
+   "valor": 1.0,
+   "umbral": ">= 0.8",
+   "cumple": true
+  },
+  "sensibilidad_tipo_explicitos": {
+   "valor": 1.0,
+   "umbral": ">= 0.9",
+   "cumple": true
+  },
+  "falsos_positivos_por_cadena_P00": {
+   "valor": 0.0,
+   "umbral": "<= 0.5",
+   "cumple": true
+  },
+  "recuperacion_relaciones_rutas_explicitas": {
+   "valor": 0.861,
+   "umbral": ">= 0.7",
+   "cumple": true
+  },
+  "estabilidad_explicitos_en_2_de_3_corridas": {
+   "valor": null,
+   "umbral": ">= 0.9",
+   "cumple": null
+  },
+  "PASA": null
+ },
+ "por_cadena": [
+  {
+   "id": "E001",
+   "plantilla": "P00",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E002",
+   "plantilla": "P01",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_dbe26190ca750527b2b1510d6cd2f95cc3ee94aaedd29294f86493e755e7db0e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E003",
+   "plantilla": "P02",
+   "dominio": "matematicas",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E004",
+   "plantilla": "P03",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_91b5f50feebef04823ff0517c65c0ec0656bf0b45b133b7b8b0e8a693bf94886"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_5c377baeee7b4bc44d02667464e13331d3dc22a81530aff6eb176de64d292165"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E005",
+   "plantilla": "P04",
+   "dominio": "matematicas",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ba00f4774063cc4eacf13c462d9131a3412d2c5833d9e8811760e05aa7495d27"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.148,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_4d03162f8098e34818e636769def3281b946a18a867d3386c7edeace2ddabce8"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E006",
+   "plantilla": "P05",
+   "dominio": "medicina",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d3c8ad2b2a24b2b6ef8b544ebafbff38dd136948f16fefe66692e011f07821ad"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E007",
+   "plantilla": "P06",
+   "dominio": "logica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_68196d5216627b3fb95b2fd19e0fe0b1ae6305ebe29a18db25893a2784b1507a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E008",
+   "plantilla": "P07",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_01a2cc94423bb283c55432c33658e496e104074354b4b81178370eec4433aa0b"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E009",
+   "plantilla": "P08",
+   "dominio": "medicina",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.927,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ef1782d278fc5042ff4b9900ec74edbc71283b6c1acfbf264827018b1cc1a04a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E010",
+   "plantilla": "P09",
+   "dominio": "derecho",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.884,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_32c25c7e8369db327ed57dd09347a897cfc6b7b9a045933e640f611b1149ec9c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E011",
+   "plantilla": "P10",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_a7ca513011fe9f4514bfb24d7cf99fd5e02ec95a2fddf55dc29343d14386ddbc"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.949,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_602d4597840c600d3a43a915cfb546d0b1e5bbc851f93fb88a61e25d3cd80943"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.653,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_16e1dab0a83da3920d8318c5c9d1c4368718fb860a9ab1e05f852e3a1ff9cc15"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E012",
+   "plantilla": "P11",
+   "dominio": "medicina",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_35cfe1ec8b5ff0f91e3f76e2fe2c54b6d1ba227255428498b0510599557d861b"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b0ee5c586e9eed4eeafe075ca00f318df26a05b64ffa4a6021cd655e53b2a66c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E013",
+   "plantilla": "P00",
+   "dominio": "medicina",
+   "estilo": "narrativo",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E014",
+   "plantilla": "P00",
+   "dominio": "derecho",
+   "estilo": "terso",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E015",
+   "plantilla": "P00",
+   "dominio": "logica",
+   "estilo": "qwen",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E016",
+   "plantilla": "P00",
+   "dominio": "fisica",
+   "estilo": "escolar",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E017",
+   "plantilla": "P01",
+   "dominio": "matematicas",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a84a3d5b3d5344402c6125faba245296d265e92f1d8ede7a2aa858364be9b781"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E018",
+   "plantilla": "P01",
+   "dominio": "fisica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_96d2c9b503aaf4926410250501ef96f939db4fd67f7470edc07ecdf13db6c083"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E019",
+   "plantilla": "P01",
+   "dominio": "informatica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2b10ebe38d1ad68b9bde5a616127de4dd9980b2fb47a6e4f34251035f1d6ee42"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E020",
+   "plantilla": "P01",
+   "dominio": "economia",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_377c79a26ae9eede6a9bdb05ee2605bd601c0a9d7f14488adc95cb2ec847de35"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E021",
+   "plantilla": "P02",
+   "dominio": "medicina",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_3558fa2fd5d454670d2476c3528d7fea76041f542664232a3d76b50b797f3397"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E022",
+   "plantilla": "P02",
+   "dominio": "derecho",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_bad101a4f947fb4411f33c9b600a3614e8607cae4116e579a3db628ca3646ba5"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E023",
+   "plantilla": "P02",
+   "dominio": "quimica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_5a664c3a62d6c8258fa46771a0f24fc67cc561e2cddc5df5c83ca8a6ea5541fe"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E024",
+   "plantilla": "P02",
+   "dominio": "logica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b0d928cf380387808fb254b53809a3ed51b2fd6d76536bdd0a69836a570fe733"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E025",
+   "plantilla": "P03",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d33ffd6e8ec437e5f749269097483db9a567028ba5890f12010c4644966bdf6d"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.688,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_e724751ad4564a2da6ca462617272cc4b20b0e6cda67e99d6aff1e276ad1001a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E026",
+   "plantilla": "P03",
+   "dominio": "fisica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.963,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_920246320284552fe719692919c7f4e53582bbd009429b5a812cf79e3ad0655f"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.306,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_240abb190a113381d4304c1d67eb7cc8b0a3132ad2dccc6c4effdd3920cee652"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E027",
+   "plantilla": "P03",
+   "dominio": "economia",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_482123b869a759d7e1c6faaf8a44db469292e38d1b693ce3e2fb60c4da89deed"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b12728a997569ee1f907b91b605a7921be674ba97739bf7ea0f9b3805b05ea64"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E028",
+   "plantilla": "P03",
+   "dominio": "informatica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.712,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_7902f5bdd2be6dd7edafe22bfdd4a4bf761a62db586cd0a1d27982ae742133aa"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.608,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_968797c03a88d54d3a0a88278faeb9bda2fc627cc949cae7afa3f3ed9d7cb5b3"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E029",
+   "plantilla": "P04",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_f7df9b2b20e8626c5949ff2a249182d18b4cff4c1d9d11108e22a56ba8521bd1"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.557,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_abeebf3549b5001658da149632ea90aff9a7854f30704d4b5f2be984f1937268"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E030",
+   "plantilla": "P04",
+   "dominio": "quimica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_97ec575bd1dcf51e0769e0f6d9f52b57f0534b259b0f15d23240c90a23e0937a"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.634,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a09ef8c7f6dfd72e88905a0cbb267e2e42faf38149afe6cd5095edcebc529452"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E031",
+   "plantilla": "P04",
+   "dominio": "logica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_74fbc048cf8c1abf674b98e6085ce688325b3f4880dfbd75c9894dd9ae530822"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.445,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_7f3e3aa51441ab8e9ff845676f542647cd0bd5d31a5cffa10148be2b20dfbbad"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E032",
+   "plantilla": "P04",
+   "dominio": "derecho",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_8f5a837ed1813040e3ac912dbf6a536a2b18e2e7811919ab7bb9e25b456a9e69"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.393,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_4f13565f783ae404023c037faa1fb7e3d51d972bb7dc6095b2816707bfc00adc"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": false,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E033",
+   "plantilla": "P05",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_eddeec637842974a82f4183d37cb7896c075dbe791eba4bb4cf20498b6e8c79a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E034",
+   "plantilla": "P05",
+   "dominio": "logica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.564,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_60f0b9d41f38b13dd194d580b8e5dbe5df5ff98be96345018421ae4fa08a63fa"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E035",
+   "plantilla": "P05",
+   "dominio": "economia",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_016c89e9d8e749b1d55dbd245603805031cf03fac2060f2a9e7f5040fa147b3e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E036",
+   "plantilla": "P05",
+   "dominio": "etica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_dc16ff484842f8dd421c07b48f5e9145a87b20abf5652ebc87c208e995958ebc"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E037",
+   "plantilla": "P06",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E038",
+   "plantilla": "P06",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.48,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_93681facff62c810aa2410d5406f407043d560f89953e80a55948dd0ad6222a9",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE"
+     ],
+     "texto": "Adding the fifty numbers one after another would reach the total,  fifty additions are unnecessary.\n"
+    }
+   ],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E039",
+   "plantilla": "P06",
+   "dominio": "fisica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_969445ad2ac0b51ca7718d8be37cf4634ffa05a7cce854ba76a1de52ed74e822"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E040",
+   "plantilla": "P06",
+   "dominio": "derecho",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_4ad3cd96ba8606237be6f8b898918c5e63e1aad1640b7c82e177dd0d0a4ba20e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E041",
+   "plantilla": "P07",
+   "dominio": "medicina",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_8f345a1c1b678aa60631d2d7757ececbf25419f5f1012be4f39322dd04c375c3"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E042",
+   "plantilla": "P07",
+   "dominio": "informatica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d672a8b4bf2698dff1e1a315fe16b359ea0efe879d4decfd30d2bd178538ec93"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E043",
+   "plantilla": "P07",
+   "dominio": "logica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_78a841ae9c8b7161ca1f4de484fe65873fe2be98561285784689f2b73a88c698"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E044",
+   "plantilla": "P07",
+   "dominio": "quimica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_0aad7b175d5a4dd3665101272d8354c874ce14b7fdddf5a46ee4fb9021d5e899"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E045",
+   "plantilla": "P08",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_c49c78fd20dca74944656ef4f8f3afe2e741a2fc7cccd2e5cc9314fd6c6eb6c1"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E046",
+   "plantilla": "P08",
+   "dominio": "fisica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.667,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_5e7e95451316537b1464f256d9a8ef924c7d7a37b7c14d968a0d7ddc659036dc"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E047",
+   "plantilla": "P08",
+   "dominio": "economia",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.858,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_c76da8e02e32196957fcb20dc9ddac47e7af68130f2f808c4e6281739e9bac36"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_4494ecb3dcbae8341329e09a595db1ac5a9844253acc4207091c748b9d3d4967",
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "segmentos_solapados": [
+      "CORRECTION"
+     ],
+     "texto": "Actually, no, I added when I should have subtracted. "
+    }
+   ],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E048",
+   "plantilla": "P08",
+   "dominio": "derecho",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ba2c18a47c6faadc501499f7fd47101f8a9bf9c74e5378ec62c8394279d27958"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E049",
+   "plantilla": "P09",
+   "dominio": "medicina",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.856,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_f7ce93fde9a784f6bd4f10dce0e7a9a2dc5cc36dfac8269048101b11adbfbccb"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E050",
+   "plantilla": "P09",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.902,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_98a11129e66001dcbd364c551fd796ba67d8655027fbf3423abb8bde988bcdff"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E051",
+   "plantilla": "P09",
+   "dominio": "quimica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.849,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_cbf85d01b5cf36c72d481b1ed17a262f3231a67f9cbcf23196f7b1214fc93a6c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E052",
+   "plantilla": "P09",
+   "dominio": "etica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.795,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_16a54542e14132785be754b1da49854acd2ba1e542507c601e765e6c2fb14d1a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E053",
+   "plantilla": "P10",
+   "dominio": "medicina",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b6fc4fb0cb3b91c95f7fbe6035d4d674ca02ed4298acc68a64ebbe888be38a52"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.862,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_21106d3959c321405fcd98ed8c00b21436a6f7f9a208b82092a5301f20e358c6"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.782,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_84707a3b08a066d98efdb1163773e0bd61b711303a8b2b816caf691f78cdc63c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 13,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E054",
+   "plantilla": "P10",
+   "dominio": "fisica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ea9656cd5479fa864d73c1b7c2407c729fa0daede59dc44a5b63862bf69ae826"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.786,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_895f60186a1e54a035f984c78547efc4454126d76ae72957e8c3893853ee11c8"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.533,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_760c052e77f6d038581bb7f6a7460a3d5f69919b2b87c37165a1b1cbea0c06d1"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E055",
+   "plantilla": "P10",
+   "dominio": "informatica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_92f041f908725049a1eba6a0237d32e560e6315772b4517055a415a77da85191"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_00221a5858451d7d3fa1d5293b2fc25357fcdedad7adcd0c96053c1d493ac739"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_47aeb143b991b154aba9c43338377aef793e1eec0a9fc48856a4aa48695fc997"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E056",
+   "plantilla": "P10",
+   "dominio": "economia",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ae17b7c66cf57a8a9af0debff6ca9ac0897efc2bda124c42b47355d00ea43593"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d453dd2809b4f53e9c5ff9927b30da42c6d10f40a10735ed425acbb7bbb0f8e3"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.561,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_3450914d40e8e96f4c29f880836cd840842e9b8fa473309c254cd46bb03a49d9"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E057",
+   "plantilla": "P11",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_be92d25634434cf4e4f6445daeb26763b39fd7af98775abc29f8f93c11df67fe"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_94cf377a2d41eb0133ae5b5924a6221a588efd4cce1cbd798bf9104a90f41e06"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E058",
+   "plantilla": "P11",
+   "dominio": "logica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_53c3bafbf4435e3d58d77808cec4a48ec5cab1420aa5214d24e7e505ed0270ae"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_03ffaba30767d925c834cb5724f9280a32a3b337d8dffc8dd96333930d47895a"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E059",
+   "plantilla": "P11",
+   "dominio": "derecho",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_848bdcb5d9f7c311f2b20f139d4d6a75adeaf0fe6eafe1a58e5bc6816ee1325b"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_72ceef5e3ed0d10eb39d9ae193d0a8cbf9998b63f2eab392b02c291032571f14"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E060",
+   "plantilla": "P11",
+   "dominio": "quimica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2dbd8b348285a06e938f398d0c2affa4fd9e0f77fe366c933a3b5c8751a54918"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_6d66324007d1402fd17397085f4745f747b408a2a3a64fcbb5aed9bbe18269c5"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E061",
+   "plantilla": "P12",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E062",
+   "plantilla": "P12",
+   "dominio": "derecho",
+   "estilo": "qwen",
+   "plantados": [],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_48a7b92cabbeba7919cfba7ca86d8ba83c1b106b92b75b2aa5cb3e23e7461be9",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "UNRESOLVED",
+     "segmentos_solapados": [
+      "PROGRESSION:distractor"
+     ],
+     "texto": "When a check taken for an obligation is dishonored, the suspension ends, and the seller can sue either on the check or on the original contract.\n\n"
+    }
+   ],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E063",
+   "plantilla": "P12",
+   "dominio": "economia",
+   "estilo": "terso",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E064",
+   "plantilla": "P12",
+   "dominio": "informatica",
+   "estilo": "narrativo",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E065",
+   "plantilla": "P12",
+   "dominio": "etica",
+   "estilo": "escolar",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E066",
+   "plantilla": "P13",
+   "dominio": "medicina",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_72f23d1e95f0977413b6bcc3dcccced62b371feb3fdd691411d643cb202a5d12"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_0fd4055c9c01d8101dd94aff440cde1f89d0736185326a71d3e9324ae40c0e89"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.558,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_89b948428034fec2bba9c2c93bdeec3f4cb6b5fce81791f2754dfcf51e609bf8"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_224554dfb533e0a89571220c8dcd7adfe95b0e76001e266bc35ce6a827db4831"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_88fdc94d951cd36702f79cc397bbc2ba95b493e8d2ebf55c3cdde919d535658d",
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "segmentos_solapados": [
+      "PROGRESSION"
+     ],
+     "texto": "A normal anion gap is about 12 ± 4, so 25 is clearly elevated. "
+    }
+   ],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 5,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E067",
+   "plantilla": "P13",
+   "dominio": "matematicas",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_8be3f95a704892d583ba5b6aee885e9d4112005b307053536da45a4872298ec5"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.721,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_09bfb8cd3d7b69e21ddb9f40ff8bb22de4723c7bb8f16e52c7a4724dd1be1a0f"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.714,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_1c8e02927d6245cf30281489a60d59cc34b2e1f5ed5b59d3186f38f2b0e3cff0"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_541b5d16426a9d43bcdc747d4dee2209604a92f35a7f15d9afbab752a9bc270d"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 9,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E068",
+   "plantilla": "P13",
+   "dominio": "derecho",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_fbe198f99620304577047ffb321beda05f0e80a5d2a48b01e2167b5ee7ba32e9"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_7f744cec5db66ed46c62a33a06f63582b5e218ee69f00f1e1055d0eb36bc7653"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.833,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d190ac493466f55120ec4f6af8394dcdd170a04f8ddfb639fec05f1718c4a295"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d60f65d4433d2bdafca8aa67a789975bff631dd1bb10fbde931adfb680988a14"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E069",
+   "plantilla": "P13",
+   "dominio": "fisica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_cfc3910d0980489111cb6b69eab646b6472930261f88c56e5dd6249ee0acac51"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_1e28ec766d6154480e78ea888ebf40d28aff36cedcbe1dc9696b65ac97ac3e4f"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.935,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_5f9528bf1d3353ca9863fa6f94c536c59f90d2a4ad136f88383bb5335fa168b0"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a16633c03865b748005aabe6cf10469c31b146eec431aa335aa70655299da71e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E070",
+   "plantilla": "P13",
+   "dominio": "quimica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a35d55c07daf99ce174f9e5f8488edb8a4dbc45e2e231d5ad778fd859913720f"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_9af9ca6a8add5bfec19c4295c91648d00273375a7a22ee7c322109a83fac3dce"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.82,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_874d12bf2f5b82dfee8f45e8745411d8f1ca3430cbe1f539573aa361a69232e6"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_efcfd37a6f956e5f6a6608c5ab4dc69834f937ad0ddafa59f6b2a4b6dc2d1491"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E071",
+   "plantilla": "P14",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.387,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2b7e0364142a404e0e39498d306114a7f072c3b814ab135d19a56d5230d7ffd9"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_afea8f43f49e07ba0ee30a06bd0dfd0d3c3340b0193bd4173a6a600bbb022bda"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_a4f256011c55de2e3766088c712b8833069f65ea522c38445f44d49afc60498d",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE"
+     ],
+     "texto": "A per-dose amount could be read off a weight-band dosing table, "
+    }
+   ],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E072",
+   "plantilla": "P14",
+   "dominio": "derecho",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_191a5b3974684566615a824e69df2149ab5852141716c5382fc34fca6bbc2589"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_3218f6ccbca8282188f6ce5bb3765f58c45705653fbf07ef530eb83e700b76a8"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.485,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_bbea26950ed9374fab0f0b5717b119855ee9acc909d193764835d4bab8e97201"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_006c3e67b269e31c48e4ca5731bf02b567d192d93d402743a5ea0297f6690dac",
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "segmentos_solapados": [
+      "ALTERNATIVE"
+     ],
+     "texto": "For acceptances sent by mail, however, the common law looks to the moment of dispatch, so that dating does not apply.\n\n"
+    }
+   ],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E073",
+   "plantilla": "P14",
+   "dominio": "logica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b7afca6d45344aa16ccdda851bdf00377c27ce7fdc28d8fabb8696a0f17a4019"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.447,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_21782e006a4731b83f1146f8562fa319586a456eb93f0a7669f36dec9e249efb"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_7a7f720065a9cb8fe6505f666c3170466d561aea21a52c75bfa55aba9342bf1d",
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "segmentos_solapados": [
+      "CORRECTION"
+     ],
+     "texto": "The solution with A and C truthful cannot stand, so A is lying. "
+    }
+   ],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": false,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E074",
+   "plantilla": "P14",
+   "dominio": "economia",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.715,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_4405d0e411b8de84bffd61a19239f06a36a870ce46264947b7e1ff8ee8124f45"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.848,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_908e891c851efaa8b03185e603240a2c8bdc7207c361584ace047d74c0714f57"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": false,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E075",
+   "plantilla": "P14",
+   "dominio": "informatica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.393,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": "CORRECTION:RECOVERED",
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.387,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_be4aba89be29861de42998fbf547cf3a5ec759f2394b1d2e54841202ea51b16a"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_46bb0202db80e1741d2b745f8c0faf4dcea6a461265b195a1f00328ab75cd6be"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_fa877fe2081c63ea4397d8115a2c5e256cc05f46cd6081b74fba58393d8db031",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE"
+     ],
+     "texto": "Timing the code on a few input sizes could suggest a growth rate, "
+    }
+   ],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": false,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E076",
+   "plantilla": "P15",
+   "dominio": "derecho",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2d4e85730b76df10aacc9d01c5d59c10368b86a1c33d5d0214bc1965a9d87b6c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E077",
+   "plantilla": "P15",
+   "dominio": "etica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_377cfdba51b3e1afda05ae8d5bb1f00b8ccf96d96e8eb1c38770dbfc2de65f4e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E078",
+   "plantilla": "P15",
+   "dominio": "quimica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_acce4573c8c59f92f06cc6afd45e76ab6512b5626000d54edbe9ca45d17c1d4d"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E079",
+   "plantilla": "P15",
+   "dominio": "fisica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": "ALTERNATIVE:REJECTED",
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_351378b89219ce293b753b2268d819ce099497885158305d5acf65702629ecc1",
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "segmentos_solapados": [
+      "PROGRESSION"
+     ],
+     "texto": ", which is not stated Level floor taken: the horizontal forces are the push and friction only, so friction = 50 N, opposite to the push.\n\n"
+    }
+   ],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E080",
+   "plantilla": "P15",
+   "dominio": "matematicas",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E081",
+   "plantilla": "P16",
+   "dominio": "matematicas",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E082",
+   "plantilla": "P16",
+   "dominio": "informatica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.576,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_c4b018c4af51c6e49dd2f0ae8573170b231260af4c905dfc73e506fda2f9dbec"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E083",
+   "plantilla": "P16",
+   "dominio": "derecho",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E084",
+   "plantilla": "P16",
+   "dominio": "etica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": true,
+     "iou_mejor": 0.465,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_5ad7b6c0ace3a504aef83556a57ed4db769e6a196d001d935ccc47b59e632447",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE",
+      "PROGRESSION"
+     ],
+     "texto": "Crisis standards of care, which this hospital has activated, already settle the question with a single criterion, the likelihood of benefit assessed with clinical scores of short-term survival,  so th"
+    }
+   ],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E085",
+   "plantilla": "P16",
+   "dominio": "logica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": true,
+     "iou_mejor": 0.43,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_2d92f560659c2975357d277245755d0a8b5ae51e301e5be3e28b9e030f9811a6",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE",
+      "PROGRESSION",
+      "SUPPORT"
+     ],
+     "texto": "Each handshake corresponds to exactly one pair of people, so the total is the number of ways to choose 2 people out of 10, C(10, 2) = 10 x 9 / 2.\n\nC(10, 2) = 90 / 2 = 45.\n\nThe division by 2 appears be"
+    }
+   ],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E086",
+   "plantilla": "P17",
+   "dominio": "medicina",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.796,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_23d0094caaf6379790b443ea8446e94a511673535d71bbb1ac34ad93726a9019"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E087",
+   "plantilla": "P17",
+   "dominio": "economia",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_aafca264d8d6229bb40a79f9417f9a7fea07d0dd7a652c0695e6c725a2e150b1"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E088",
+   "plantilla": "P17",
+   "dominio": "quimica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b75fe6d207725f54ea4381ce932c2bc5935ce9e01bd53f71e1c678f1adb46cec"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E089",
+   "plantilla": "P17",
+   "dominio": "fisica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_cdd4250310c284703ae916809ac7019f36ccbaa21b8a2312e769ca4a8fd4cce2"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E090",
+   "plantilla": "P17",
+   "dominio": "etica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d56919d0dcaf61681737c988c461e0ba6e08ed95659fcb8ae7fc0caacf832bdb"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_11f6f52e23a6ed083d67218ca6df167bf5b766cf72042731122eeba8acc9765d",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "segmentos_solapados": [
+      "CORRECTION",
+      "ERROR"
+     ],
+     "texto": "Since the harm is minor, disclosure is required only if the nausea gets worse, so for now the physician should simply document the event.\n\n The duty to disclose covers errors that reach the patient wh"
+    }
+   ],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E091",
+   "plantilla": "P18",
+   "dominio": "derecho",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_8652c968eaea1c322ff96d90ecfd29d0719d8af5885d54d1a43d59f4854687e1"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.647,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2b8194f2b5a157c11d4af6b6f767325c34712276415e66cdbeaa6aedefa114cd"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E092",
+   "plantilla": "P18",
+   "dominio": "medicina",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.941,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_8f60118ca30d0ffe19b4a8a4fb71ded147ef3424fa09f96956f6463125f9b744"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.787,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a94e8bd5bdc3acf8a7cf694ac540408f5d5d2ac7be6d05cdb4f943068dc5cf6d"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E093",
+   "plantilla": "P18",
+   "dominio": "logica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d7127883b0660f8128f9ae9da82b0fc2043d0d82b0fdc8c09460aec8189af29f"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.607,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_e6c638466f1b3f6e93f00edc8d265ddeb04206899d60d955d7c9ab484be57d08"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E094",
+   "plantilla": "P18",
+   "dominio": "economia",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_c2e17d7bbb42b7eabdc0d78c0a094a1e565cdc6dd8e678e142f5fe211b3210e1"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.653,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_211d96acbca823c47737459cd7f70c48fd5a828e9b08efa05ebd9faf9f82b0fa"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E095",
+   "plantilla": "P18",
+   "dominio": "informatica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.688,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_299103126bf7c56c417e1e7467feb91c0464635d7e6c5b994759b323c3262bcd"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.62,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_09757e077db47f48b5388fbe07e2f17f0b0f8631dea4b0f9562cdf0cd6374b38"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E096",
+   "plantilla": "P19",
+   "dominio": "etica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_1aea293685b7a7f33f6f414276ce19969f9f9031138dff7fd071207a4398188e"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_90f080d28e54747b9ad9cf0890c7cdbb515c07797538c01226e5384ce96a5530"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E097",
+   "plantilla": "P19",
+   "dominio": "quimica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.557,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": false,
+     "episode_id": "ep_a1a905f2719f84cdf99b031016197bead0bec4083766d6d719458da8019c5ad6"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_a0206498adfcb109a178ab01b906705094612279711a8fab41d24f2f10c63a63"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E098",
+   "plantilla": "P19",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.281,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b08b431999dd7cca8c28063ebf510ffa29d6deebb11a331bdadffd2d537ca71a"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_ed9b35c10c9c81f77c1aa25597cacc43f13f77e4477f871c9e0ab77a3dd632aa",
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "segmentos_solapados": [
+      "ALTERNATIVE"
+     ],
+     "texto": "Heron's formula works for any three sides, "
+    }
+   ],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E099",
+   "plantilla": "P19",
+   "dominio": "logica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b180269bb9831164c6f545d6bb9e19ea18655ef6f4a9513e2406d9f431c5c352"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_fa1ecb92185125fe2f8491d8b1c8912e986637bf42fa7dc48b6f845022cf8383"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E100",
+   "plantilla": "P19",
+   "dominio": "derecho",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_24b83f8185dbb7a9b6abc836ee959b9da30b32307141d5e52fe68df31ac47305"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E101",
+   "plantilla": "P00",
+   "dominio": "quimica",
+   "estilo": "terso",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E102",
+   "plantilla": "P00",
+   "dominio": "etica",
+   "estilo": "narrativo",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E103",
+   "plantilla": "P12",
+   "dominio": "matematicas",
+   "estilo": "escolar",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E104",
+   "plantilla": "P12",
+   "dominio": "informatica",
+   "estilo": "deepseek",
+   "plantados": [],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E105",
+   "plantilla": "P14",
+   "dominio": "medicina",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_681aba3fbdb67aa33442372786430f09d799402d8166c37aa557759f30bfa2da"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_89a9a40726c1260939717a6939741cdc25fe68c29c460743a05d85f9b698fe75"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2184dbb2fc86cb876469776bef41a3fda42f6440aa7f66280086b235cd082b80"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_61607eaec184c180b480d26fdd30a8a0c973ddbd0e2ed0ff39a880dc827ce142"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 9,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E106",
+   "plantilla": "P14",
+   "dominio": "economia",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.689,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": false,
+     "ancla_ok": false,
+     "episode_id": "ep_a57894c77f4a6f3858394b017263cf06b37d99cae6e299f7bbe0cf673fcbaf78"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_70b4518e53ae80eea21ffae01e22984f2038bc00c3718814a7c72d20f766d563"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_c50823b97f151a50666ba5ee10f5db47c20fdcfa7f4fd88078e01b5b86dfba00"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_13525160a3c22444ae090840cea300c60544fe964d081b7122d07064e93e00ac"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 10,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E107",
+   "plantilla": "P14",
+   "dominio": "fisica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.521,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": false,
+     "episode_id": "ep_1d7ab8ba794fb050cf8c1c8467dfc45e7172b5018d3c6d1cb28313d793b3a7ea"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_30d0477d3e6ac19a7e042ee76404a11578bdf47764f183bf0e2fc943d6882da0"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d500b803002e628195f18e47864acaf3a0fe521d67e7b7548f52b2f634b3a8c1"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": false,
+     "ancla_ok": true,
+     "episode_id": "ep_1949a35f8ca95bbdf678a3d61a81ba48a5c75adff062703286c564dce60acdec"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E108",
+   "plantilla": "P14",
+   "dominio": "derecho",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.768,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": false,
+     "episode_id": "ep_aad95ec06e3a67cc6420214075d8d85b8b251466a0401d4a4e1d9ef38dfc8b69"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_cd92282824a06fa5a4a97c6117c4e9bc289ba09be60bb7d641cbd56f84016834"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": true,
+     "iou_mejor": 0.472,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": "CORRECTION:RECOVERED",
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 11,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": false,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E109",
+   "plantilla": "P16",
+   "dominio": "logica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 2,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E110",
+   "plantilla": "P16",
+   "dominio": "quimica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 3,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E111",
+   "plantilla": "P16",
+   "dominio": "economia",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.863,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_57f5afde1da1419e7422e8d0780df3604a2e98e27b9d24d2962335acb278de8d"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_05d2a4aa08884c055c2818e9e4fec77d429899365791a23cd001347ab0e133db",
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "segmentos_solapados": [
+      "SUPPORT"
+     ],
+     "texto": "P = D / r is the sum of the geometric series of discounted dividends: first term 6 / 1.08, ratio 1 / 1.08, so (6 / 1.08) / (0.08 / 1.08) = 6 / 0.08.\n\n"
+    }
+   ],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": false
+  },
+  {
+   "id": "E112",
+   "plantilla": "P19",
+   "dominio": "informatica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.54,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": false,
+     "episode_id": "ep_2cb668b313236231bf59fb4a640076f82da1991beeaa1afd2bff4f7da866d344"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_2c72437e80ee53407af520192668b6ee177907cbc62f2f5ec45ad3788fd4d82c"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E113",
+   "plantilla": "P19",
+   "dominio": "etica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_f01f3fe4cbf815c5422051a9a24e19e492c3af4d95bcf64208d33579071a4ee9"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E114",
+   "plantilla": "P02",
+   "dominio": "fisica",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 0,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E115",
+   "plantilla": "P02",
+   "dominio": "economia",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_33ffe965e209e2f0a28e15da388d68d3edffd7842654a46d75b858a03e99492b"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E116",
+   "plantilla": "P15",
+   "dominio": "matematicas",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": false,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_e4183c3cd2b576217ce80991b1876d3a4bd86565ef866c753b3db5102a095fa4"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E117",
+   "plantilla": "P15",
+   "dominio": "medicina",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": false,
+     "detectado_laxo": false,
+     "iou_mejor": 0.0,
+     "desenlace_detectado": null,
+     "desenlace_correcto": null,
+     "confundido_con": "ALTERNATIVE:UNRESOLVED",
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": null,
+     "ancla_ok": null
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E118",
+   "plantilla": "P01",
+   "dominio": "derecho",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_9ed85998e18a7aab183ec5645ddd190a3e24a0b2f8f11b862e76b7625f1312c0"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E119",
+   "plantilla": "P03",
+   "dominio": "informatica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b3f47bd78802e1ef4d713b5776d347ffb4e87e235e898f38f088272f66042f32"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.521,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_eefd38fc66d5d2c94843c55c186b0af8234de21314dd667df6d0f4128895d1ca"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E120",
+   "plantilla": "P04",
+   "dominio": "etica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_806589b9131bf1854ee0315c4af52f84c97618fc01b1691e60e0687a44d4c409"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.763,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_b0be513ed487a4757cd083581cfc59dbe958fdaf24e79c2f8b3c52862b831f0e"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 9,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E121",
+   "plantilla": "P05",
+   "dominio": "fisica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_fcb7635d3847dc7cdfa8f8011a79700a39d4d253ea82fed9d8975c7e2c7eefbd"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 4,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E122",
+   "plantilla": "P06",
+   "dominio": "medicina",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_0de3c2ceaa2b1dd3609f28a527cfa368d9e0b2ab5e982fa0ac4e0039c76b1978"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E123",
+   "plantilla": "P07",
+   "dominio": "derecho",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "ADOPTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "ADOPTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_279cff938cc0bd83c333ea4454a059cd8efb4d2c244126ab8a57a67e57699624"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 7,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": true
+  },
+  {
+   "id": "E124",
+   "plantilla": "P08",
+   "dominio": "logica",
+   "estilo": "escolar",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ed17c48a28be9415bb85da66885844aa53f51cccc0cd518dc152bc99864cfa06"
+    }
+   ],
+   "falsos_positivos": [
+    {
+     "episode_id": "ep_ae0b0249f6361359c8e7c8dc8a89daecf2a19b164372e01d93996089ca563ebd",
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "segmentos_solapados": [
+      "CORRECTION"
+     ],
+     "texto": "Actually, I negated the two parts but left them in their original order, which produces the inverse, not the contrapositive. "
+    }
+   ],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E125",
+   "plantilla": "P09",
+   "dominio": "quimica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "INCONCLUSIVE",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.84,
+     "desenlace_detectado": "INCONCLUSIVE",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_75a8e4e25d24019657050284b61354a59cda54b742a1ca95e2c0b27f304f4bac"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 1,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E126",
+   "plantilla": "P10",
+   "dominio": "matematicas",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_037a27938df50fca9f7b431e3b8d6962ad2a4ca3d1762885190d768876b0f109"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.779,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_9e20fa8cc65eec07332e9e7a07420e4ceec0ca47c6864ddc53b4e928dd56b9dd"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.667,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_8ee884a0c428e43ed3ebe7034f6a1d69a33bcd63b8b3bb2ebc4c09b056e312dd"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 3,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E127",
+   "plantilla": "P11",
+   "dominio": "economia",
+   "estilo": "deepseek",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_191da42572fe31ad8ea7841e64d4a8e222e1f5ff4cdf68692fee9b9882e832f7"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_fc643a69f82123777bebf786f112dcc5c6fbf3d347f854967195fa00e4ac7c05"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E128",
+   "plantilla": "P13",
+   "dominio": "informatica",
+   "estilo": "terso",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "ALTERNATIVE",
+     "desenlace": "REJECTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.529,
+     "desenlace_detectado": "REJECTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "COMPETES_WITH",
+     "relacion_ok": true,
+     "ancla_ok": false,
+     "episode_id": "ep_854496a81b50ee0ccde958a52d62a5224cb8a7b2ece8c10dbf1180d9c9ce41c3"
+    },
+    {
+     "indice": 1,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_3b17f1ffa4634289f59e9e6cd77ae9d1247da442faf13a136e0a947cc6a42d68"
+    },
+    {
+     "indice": 2,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.893,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_ee26aeb804090918e7c99319731e5e62242a51d81d7ea9ec2dabbb0d043f709a"
+    },
+    {
+     "indice": 3,
+     "tipo": "VERIFICATION",
+     "desenlace": "CONFIRMED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "CONFIRMED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_d075448d1b4bbc5b5feca44658bc32f8b74221146b40b0b2ddfe473602222cbf"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 8,
+   "n_deliberativos_detectados": 4,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E129",
+   "plantilla": "P17",
+   "dominio": "fisica",
+   "estilo": "qwen",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "implicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_da6429da61f55644fff89265102a8b4131c69366f850738e2b952c0c5b54c5f3"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 5,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": null,
+   "linea_abandonada_ok": null
+  },
+  {
+   "id": "E130",
+   "plantilla": "P18",
+   "dominio": "etica",
+   "estilo": "narrativo",
+   "plantados": [
+    {
+     "indice": 0,
+     "tipo": "VERIFICATION",
+     "desenlace": "REFUTED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 1.0,
+     "desenlace_detectado": "REFUTED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "EVALUATES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_f133a65ec523b8a8ad77910fca856bab42cd11bd3575dc9d909266e2bbc5a4ed"
+    },
+    {
+     "indice": 1,
+     "tipo": "CORRECTION",
+     "desenlace": "RECOVERED",
+     "explicitud": "explicita",
+     "acuerdo_ciego": null,
+     "detectado": true,
+     "detectado_laxo": true,
+     "iou_mejor": 0.59,
+     "desenlace_detectado": "RECOVERED",
+     "desenlace_correcto": true,
+     "confundido_con": null,
+     "relacion_esperada": "REPLACES",
+     "relacion_ok": true,
+     "ancla_ok": true,
+     "episode_id": "ep_e6d0c2c061050895972da7a4f8d496175167ff48a421b0ad7cebca69701678dc"
+    }
+   ],
+   "falsos_positivos": [],
+   "n_episodios": 6,
+   "n_deliberativos_detectados": 2,
+   "ruta_ver_corr": true,
+   "linea_abandonada_ok": null
+  }
+ ]
+}

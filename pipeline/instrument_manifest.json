@@ -1,0 +1,167 @@
+{
+  "instrument_version": "sgotgraph-instrument-2026.14",
+  "note": "Generado por tests/test_instrument_fingerprint.py --write. No editar a mano. Un cambio aquí es un cambio del instrumento de medida.",
+  "contracts": {
+    "objective2": [
+      "sgotgraph-objective2-1.1",
+      "objective2-1.1"
+    ],
+    "objective3": [
+      "sgotgraph-objective3-1.1",
+      "objective3-1.1"
+    ]
+  },
+  "canonical_settings": {
+    "consensus_samples": 3,
+    "max_extra_samples": 2,
+    "episode_iou_threshold": 0.5,
+    "edge_payload": "full",
+    "edge_sources_per_request": 1,
+    "edge_max_options_per_request": 1500,
+    "edge_transport": "relation-option-refs-v1",
+    "block_core_halo_shift": [
+      32,
+      8,
+      0
+    ],
+    "request_timeout_seconds": 180.0,
+    "transport_max_retries": 2,
+    "sampling_controls_sent": "none (no temperature, no seed)"
+  },
+  "stages": {
+    "01": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "none",
+        "max_attempts": 3,
+        "samples": 3
+      },
+      "response_model": "sha256:1453bdba8839a43192c38159bbf89148a5baf33174f37b144e897c14b806abd0",
+      "texts": {
+        "system": "sha256:28d485c65ac00ca90313de06cc40b30ac5187b6b8f942d63f7aa0bbd646b847d",
+        "user_template": "sha256:665422d5c7ec9dcaedf9e4a141058e00b3c3b9beca7d936bb5a2683ba8079785",
+        "repair_template": "sha256:a88caa29d93ed8e8a16e1ec82f2aa4dbead70485d3edb6f6a15a4a1ef875d6f8",
+        "literal_unitization": [
+          "literal-units-v1",
+          160
+        ]
+      },
+      "requests": {
+        "base": "sha256:6c7a929e444fd335f132248052cc6667af7d6eb43500bfbca79dd7fe8d717897",
+        "repair": "sha256:643f0c3ae1bb42af80e9c2aa975a5f1315a25b32d9feb2e669a31c8530a66f90"
+      }
+    },
+    "01.1": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_attempts": 3,
+        "samples": 3
+      },
+      "response_model": "sha256:c0f0b2f07718240b44d863c4a6f497ad52db866eb7730963446602f0ef5f9a18",
+      "texts": {
+        "system": "sha256:08d093fc5e3e65e860cf17ed09414582650684afabc402dbb16ff6f0d9be7554",
+        "user_template": "sha256:fdf778404dd680b8c76a8648d9971373d03301a84e253ddd81b18cad7eca7b65",
+        "repair_template": "sha256:ed68a6ddb1c21f40278959270165827a31506f9127070eea91e30c3b5c151ad5",
+        "literal_unitization": "refinement-literal-units-v1"
+      },
+      "requests": {
+        "base": "sha256:916a66bcbf72f828cc3067203720212921591cdf95a5f702d85b4dd0488a37b1",
+        "repair": "sha256:931db195a7aad3275c7842e864af9634f592b051930dea6985423a3008c2145e"
+      }
+    },
+    "02": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_attempts": 3,
+        "samples": 3
+      },
+      "response_model": "sha256:3c5bb0295226bae28f2a73997f6764badf2cce2126761a5579b51ac8f1b274b2",
+      "texts": {
+        "system": "sha256:298057f5fbc0702f3bcb3477fd6f377821b8f921c8afb4522442d624cab7d7ba",
+        "user_template": "sha256:81d9099ea7a0a7226f02ee9b34aa87fb093146f911e759701f1f34daddca1843"
+      },
+      "requests": {
+        "base": "sha256:d82518cae043c4dba7025969645749cd47044a9f774f9a3bf3e552412159df3c"
+      }
+    },
+    "05": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_attempts": 3,
+        "samples": 3
+      },
+      "response_model": "sha256:541332ae29dc5a253398b32f4c9d168d34c33e19beeafb8ec62e563ec87cc28b",
+      "texts": {
+        "system": "sha256:5c51270fdeb674daa2a120e28e9d60e162a56ed31a4f12738e90ec52d7c387c4",
+        "user_template": "sha256:ac3bd94aab11f398446c612e61656658082a62557e06a973be3276c9e85a8659",
+        "repair_suffix": "sha256:9f7491dbe4de0bfa143f0813ee7c2fec22ff322b3fd27864a9ef31ed733c7dca"
+      },
+      "requests": {
+        "base": "sha256:1f0a2b15cda8cc879064ea3db1b042046cf0378019cd9d1edd5e0109bf149cad"
+      },
+      "non_canonical_compact": {
+        "response_model": "sha256:25b7852b494af42fe87f939a9b3bef82925a5e1e3d8c798d28e1603cca212559",
+        "transport": "relation-option-refs-v2-batched",
+        "system": "sha256:4c8610b49ad5784523bb2a94ee4a5680104287574c48615e50bb303de5c98b22",
+        "user_template": "sha256:72d80e31b5cf9718d9e6ecc10548bb9a22800f5b55cc502c49b1aab86c3fca54",
+        "repair_suffix": "sha256:0dfd424a688de92b6a2857c76fc970c6cd00e97a1d71345501fe4682513835db",
+        "base": "sha256:76fad0e5f40158dca2f81739474fb6c3209092d7ae51c6fc60af99d458f57c10"
+      }
+    },
+    "06": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_attempts": 3,
+        "samples": 3
+      },
+      "response_model": "sha256:ed1df6fa57a419fc2ed9b907e19130ca8c117d372458c88df29516d15e66bcce",
+      "texts": {
+        "system": "sha256:0e2a4ce3877ab0984ba2ca493778d86314110cecc45dda94faf56a5d29336521",
+        "user_template": "sha256:23872764ea667828d2a5ef4ab1c44fc341ec56298b649dad232c48e25c01e752",
+        "repair_suffix": "sha256:2f637d0adcfeb806c28ca550252a62bf86f3ea4a50da70aa0cb735381a5667ed",
+        "type_specifications": "sha256:df78fc03d3aec3bfb958ed45f40268a2a24019e5be247020f0bdd57d476b7a2d"
+      },
+      "requests": {
+        "ALTERNATIVE": "sha256:db25638e40806cf982fc80ac62a64417b618e495d31a43eee67414551f7eca0c",
+        "CORRECTION": "sha256:cd3f26c1333ae073d5b3f48276884f6795ced25e68e0418dc7d7ad3dd15093fd",
+        "PROGRESSION": "sha256:647ed6aa1826fa5627c8c70d29da216eb4139fab9c99791240bccabe0375f787",
+        "SUPPORT": "sha256:a70eefb532fd4c57da9ec024da131f9a4a588c251f14f1f16deda86d638ba019",
+        "VERIFICATION": "sha256:fdb306d4246eea97b330f4ccb25634550f75fb09ed4d7df422219e15018c06f4"
+      },
+      "reconciliation": {
+        "response_model": "sha256:63c83e164ddf66cabb359306c9af921add565198d8b2b726faed54a320d46c7a",
+        "system": "sha256:1b8a8ccea67c8737c60872287ae4ec849469340f94690522a40ab39e5bbd1227",
+        "user_template": "sha256:444b388ad64af75d37f40fb7c6aafdd2105e2bcbf1e9d3b80551da648af60f47",
+        "repair_suffix": "sha256:7f56c8719ca0fd42d14d5ef12f7d55f96f47bfc56f22c3b6fa6d25d73917c590"
+      },
+      "non_canonical_hierarchical": {
+        "response_model": "sha256:81bf4ddf2c9b19264466d608d6466a5d64db39472748150647ed6c8d2c37c649",
+        "local_system": "sha256:efbd85bac5c23844f7667963c30efa3f1fa63b06e340dcd378e4cdb71197b9e6",
+        "local_user_template": "sha256:f4013d6d1ca458e7e09868d5ab3167120a3b370b132c039e2e546a5e7269d7b0",
+        "synthesis_system": "sha256:4327b5ecf6086507ae42a6d2989f6752b00606f74a5f130bd17db17a89780de0",
+        "synthesis_user_template": "sha256:20b4bee2c45cc71da2868d3525cccd57eb0b4134bd5eef39df49bd8ba648e42d",
+        "synthesis_repair_suffix": "sha256:87c84e427977b5f8eb329cd24cf368ce15ec8377498d4f09274916b582299968"
+      }
+    },
+    "07": {
+      "cli_defaults": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_attempts": 3
+      },
+      "response_model": "sha256:a7ff4b6752ba227fb96074c2aedcbdcb85dbf5e773f594c65d1969751fac53af",
+      "texts": {
+        "system": "sha256:f9b6d91fbb431571bf96595dbc588619d0a1bae244f029279b1f662408ceec88",
+        "user_template": "sha256:84307e78e3f39146a177fea2faf393cf246d417e283791deaf969300b97dcb0d",
+        "repair_suffix": "sha256:a5f768e86919597d7f8bdd01cde81d5ef42503d30c62de89a4122b8b35b05136"
+      },
+      "requests": {
+        "base": "sha256:8b78101b41df1dd7b0b746e26f34b566c61ddd0ba464791e503eb84a0413ac88"
+      }
+    }
+  }
+}

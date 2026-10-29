@@ -1,0 +1,13 @@
+The data files in RQ1/ and RQ2_RQ3/ (chains of thought, declared structures,
+pipeline outputs, metrics and result tables) are released under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the material for any purpose, provided that you
+give appropriate credit to the authors and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The problem statements, options and reference answers contained in
+RQ2_RQ3/cadenas_aceptadas.jsonl come from MedXpertQA (TsinghuaC3I/MedXpertQA,
+Text subset, test split) and MMLU-Pro (TIGER-Lab/MMLU-Pro, professional law)
+and remain subject to the licenses of those benchmarks.
